@@ -1,2 +1,2 @@
-# blockchain-learning
-Proof of Passion for Blockchain technologies
+# Proof of passion for Blockchain technologies
+
