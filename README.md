@@ -1,9 +1,12 @@
 # Proof of passion for Blockchain technologies
 
+### Day 4
+#### <ins>**Wallet**</ins>
+The term wallet is mainly associated with the cryptocurrencies and not to the blockchain traditionally. But in reality the wallet is the public private key pair and a public address. All the transactions stored in the cryptocurrency distributed ledger built over the blockchain is recorded with a given public address and hence everybody can know the transaction history associated with the address and hence it’s called a wallet. It also contains how much amount came into this wallet(transferred to this address) and how much it has spent(transferred from this account) and its current balance(sum of total ins and outs). 
+
 ### Day 3 
 #### <ins>**Privacy**</ins>
 To participate in the distributed decentralized application nobody needs to reveal his or her identity. All they need to have a public and private key pair and from private key they can derive a public address which is the identity for the particular person in the network. All the transactions are pointing to or from this address which is an arbitrary string and no one can recalculate the private key or any other personal information related to that string which is indeed a hash generated. This public address in the block chain system is the hash of the public key associated with the given private key. So it's computationally impossible to guess the private key from the public address and no personal information is attached with the public address.
-
 
 ### Day 2 
 #### <ins>**Key pair**</ins>
@@ -19,7 +22,6 @@ Assume we have a message as ‘m’, private key as ‘sk’ and public key as �
 
 sk, m; 	E(sk, m) => s
 pk, s; 	C(pk, s) => m
-
 
 ### Day 1 
 #### <ins>**Hash function**</ins>
