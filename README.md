@@ -1,5 +1,14 @@
 # Proof of passion for Blockchain technologies
 
+### Day 5
+#### <ins>**EllipticCurve**</ins>
+Elliptic curve is a cryptographic algorithm used for data security. It is as secure as RSA but with a shorter length key. The general Elliptic curve equation is as follow
+
+y^2 = x^3 + a*x + b
+
+It generates the private key by choosing an ‘X’ and finds the point on the curve repeatedly doing a computation step X times. In this way it makes it a trapdoor function that can go only one way. With public and private key a message can be encrypted but with the given cipher and public key it’s almost impossible to guess the private key by using the computational power of modern computers. 
+
+
 ### Day 4
 #### <ins>**Wallet**</ins>
 The term wallet is mainly associated with the cryptocurrencies and not to the blockchain traditionally. But in reality the wallet is the public private key pair and a public address. All the transactions stored in the cryptocurrency distributed ledger built over the blockchain is recorded with a given public address and hence everybody can know the transaction history associated with the address and hence it’s called a wallet. It also contains how much amount came into this wallet(transferred to this address) and how much it has spent(transferred from this account) and its current balance(sum of total ins and outs). 
