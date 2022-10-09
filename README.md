@@ -1,5 +1,11 @@
 # Proof of passion for Blockchain technologies
 
+### Day 6
+#### <ins>**Signed transaction**</ins>
+In a distributed system each transaction must be signed by the private key so every other node can verify that the transaction is issued by the real owner. 
+Let’s just have a case where a person initiates a transaction and moves funds from some other person's account to himself but every other node in the network won’t allow the transaction because it doesn’t have a valid signature. This is the very first step towards the security of a distributed network transaction system. Every transaction made on the blockchain is signed by the initiator of the transaction and every other node in the network is able to validate this transaction and can vote either if they have to accept the transaction or not without knowing the private key. 
+
+
 ### Day 5
 #### <ins>**EllipticCurve**</ins>
 Elliptic curve is a cryptographic algorithm used for data security. It is as secure as RSA but with a shorter length key. The general Elliptic curve equation is as follow
