@@ -1,5 +1,13 @@
 # Proof of passion for Blockchain technologies
 
+### Day 7
+#### <ins>**Validating transactions**</ins>
+The first step of blockchain security is the validation of each transaction. The signed transaction can be validated with a public key and signed transaction message with very low computational steps. The pseudo for for signing and validating the transaction is as follow. 
+  
+Signing(private key, message) => signature   
+Recover(public key, signature) => address
+
+
 ### Day 6
 #### <ins>**Signed transaction**</ins>
 In a distributed system each transaction must be signed by the private key so every other node can verify that the transaction is issued by the real owner. 
