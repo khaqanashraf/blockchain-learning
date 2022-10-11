@@ -1,5 +1,10 @@
 # Proof of passion for Blockchain technologies
 
+### Day 8
+#### <ins>**Network Architecture**</ins>
+The Blockchain technology built on the distributed networks where the transactions occur on multiple systems called as nodes. The nodes in the blockchain system communication are peer-to-peer. That each node can communicate to any other node in the network which makes it essentially transparent about what’s going on or what’s happening there. 
+
+
 ### Day 7
 #### <ins>**Validating transactions**</ins>
 The first step of blockchain security is the validation of each transaction. The signed transaction can be validated with a public key and signed transaction message with very low computational steps. The pseudo for for signing and validating the transaction is as follow. 
