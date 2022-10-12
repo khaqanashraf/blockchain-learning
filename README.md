@@ -1,5 +1,10 @@
 # Proof of passion for Blockchain technologies
 
+### Day 9
+#### <ins>**Distributed Ledger**</ins>
+All the transactions in the distributed network are recorded as a ledger with append only fashion. This ledger is publicly available to everyone. Everybody has a copy of the ledger in the synchronized fashion. Each node in the network validates each transaction and updates its ledger accordingly and hence it’s called the distributed ledger. Transactions are grouped into blocks and then each block appended at the end of the chain. 
+
+
 ### Day 8
 #### <ins>**Network Architecture**</ins>
 The Blockchain technology built on the distributed networks where the transactions occur on multiple systems called as nodes. The nodes in the blockchain system communication are peer-to-peer. That each node can communicate to any other node in the network which makes it essentially transparent about what’s going on or what’s happening there. 
