@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 10
+#### <ins>**Consensus protocol**</ins>
+In a distributed network where all nodes are equal and every node must have equal rights, it’s hard to believe that every node in the system is trustworthy. To validate transactions in the distributed system it is necessary for the maturity of the nodes to agree upon the validity of the transaction. And if the majority agrees upon the validity of the transactions then they should become part of the ledger and become immutable. And hence this is the case where blockchain consensus protocols came in. One of the major problems that these consensus protocols eliminate is the ‘Double Spending Problem’. If two transactions are sent to the network one is paid to one wallet and the second is paid to another wallet then these transactions are first sent into unconfirmed transactions. And if one transaction is confirmed first then the second one would be rejected and if they both came at the same time to be confirmed then only one would be accepted with a majority of votes. 
+
 
 ### Day 9
 #### <ins>**Distributed Ledger**</ins>
