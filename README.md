@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 11
+#### <ins>**Double spending attack**</ins>
+The double spending attack is the attack in which a transaction ‘T1’  with a valid signature is issued to the network and some amount is sent to a public address ‘a’. The recipient of the amount ‘a’ will wait for the transaction to be confirmed and meanwhile, the sender of the transaction ‘T1’ issued another transaction ‘T2’ to transfer the amount to another wallet. This is the double spending problem in the blockchain and blockchain technology has developed the algorithms to prevent these kinds of attacks by consensus protocols.
+
+
 ### Day 10
 #### <ins>**Consensus protocol**</ins>
 In a distributed network where all nodes are equal and every node must have equal rights, it’s hard to believe that every node in the system is trustworthy. To validate transactions in the distributed system it is necessary for the maturity of the nodes to agree upon the validity of the transaction. And if the majority agrees upon the validity of the transactions then they should become part of the ledger and become immutable. And hence this is the case where blockchain consensus protocols came in. One of the major problems that these consensus protocols eliminate is the ‘Double Spending Problem’. If two transactions are sent to the network one is paid to one wallet and the second is paid to another wallet then these transactions are first sent into unconfirmed transactions. And if one transaction is confirmed first then the second one would be rejected and if they both came at the same time to be confirmed then only one would be accepted with a majority of votes. 
