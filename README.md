@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 12
+#### <ins>**Mining nodes**</ins>
+In the blockchain network, there are some special nodes called mining nodes. These nodes are part of a blockchain system that ensures the security and integrity of the system. These nodes keep on working to maintain the reliability of the network by putting their effort into the system. In the case of Bitcoin, these nodes keep on working to find the hash by solving a mathematical puzzle so they can mine a block to the blockchain and get the reward. And it makes sure that not a particular body can add blocks to the blockchain but the one who is putting in his effort. These nodes are special nodes because their primary aim is not to make the transactions in the network but to put their effort to make the network secure and to get some rewards out of thin air.
+
 ### Day 11
 #### <ins>**Double spending attack**</ins>
 The double spending attack is the attack in which a transaction ‘T1’  with a valid signature is issued to the network and some amount is sent to a public address ‘a’. The recipient of the amount ‘a’ will wait for the transaction to be confirmed and meanwhile, the sender of the transaction ‘T1’ issued another transaction ‘T2’ to transfer the amount to another wallet. This is the double spending problem in the blockchain and blockchain technology has developed the algorithms to prevent these kinds of attacks by consensus protocols.
