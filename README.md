@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 13
+#### <ins>**Transaction pool**</ins>
+Transaction pool is the intermediate stage where all the transactions sent to the network came and all of them are referred to as unconfirmed transactions. Then mining nodes pull these transactions and validate them with their signature and their spending from the ledger. The transaction is accepted by the network only if the majority of the network nodes validate it and rejected it otherwise. Once the transaction is fetched from the transaction pool and accepted by the network nodes it becomes immutable. So in a sense of database transaction, it works the same, it’s either committed or rolled back. If it’s committed then the changes are persistent and they’ll reside forever. 
+
 ### Day 12
 #### <ins>**Mining nodes**</ins>
 In the blockchain network, there are some special nodes called mining nodes. These nodes are part of a blockchain system that ensures the security and integrity of the system. These nodes keep on working to maintain the reliability of the network by putting their effort into the system. In the case of Bitcoin, these nodes keep on working to find the hash by solving a mathematical puzzle so they can mine a block to the blockchain and get the reward. And it makes sure that not a particular body can add blocks to the blockchain but the one who is putting in his effort. These nodes are special nodes because their primary aim is not to make the transactions in the network but to put their effort to make the network secure and to get some rewards out of thin air.
