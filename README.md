@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 14
+#### <ins>**Candidate block**</ins>
+A candidate block is a potential block to be added to the blockchain next to the current verified block. It contains the confirmed transactions data, previous block hash, and timestamp. Miners will compete to mine this block into the blockchain by guessing a special number. The miner who will first find this number will be able to append this candidate block into the blockchain and by combining all this block data a block hash will be created.
+
 ### Day 13
 #### <ins>**Transaction pool**</ins>
 Transaction pool is the intermediate stage where all the transactions sent to the network came and all of them are referred to as unconfirmed transactions. Then mining nodes pull these transactions and validate them with their signature and their spending from the ledger. The transaction is accepted by the network only if the majority of the network nodes validate it and rejected it otherwise. Once the transaction is fetched from the transaction pool and accepted by the network nodes it becomes immutable. So in a sense of database transaction, it works the same, it’s either committed or rolled back. If it’s committed then the changes are persistent and they’ll reside forever. 
