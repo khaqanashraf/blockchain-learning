@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 15
+#### <ins>**Proof-of-work**</ins>
+PoW is one of the consensus algorithms that prevent malicious activities in the network and ensure the security of blockchain. In order to mine the candidate block, miners compete and solve a cryptographic puzzle by using their computational power. The nodes with more computation power are most likely to mined the block and in order to mined the block they have to prove that they used their computational power, hence it’s called proof-of-work. Only the winning node would be able to append a new block into the blockchain system and every other node will update their own copy of blockchain accordingly. The basic idea is to have an algorithm that has a problem which is difficult to solve but easy to validate that the node has worked hard to guess the right answer. And other nodes can validate their work without doing the same hard work but with very small computation.
+
 ### Day 14
 #### <ins>**Candidate block**</ins>
 A candidate block is a potential block to be added to the blockchain next to the current verified block. It contains the confirmed transactions data, previous block hash, and timestamp. Miners will compete to mine this block into the blockchain by guessing a special number. The miner who will first find this number will be able to append this candidate block into the blockchain and by combining all this block data a block hash will be created.
