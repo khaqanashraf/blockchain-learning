@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 16
+#### <ins>**Cryptographic Puzzle**</ins>
+In order to add a new block into blockchain miners have to solve a cryptographic puzzle. The candidate block has the transactions data, previous block hash and timestamp. The idea is to guess a number that by combining with the block data will produce a hash for the block. The hash must be less than the dynamically adjusted target. The puzzle is a totally random try and test. To solve this puzzle miners have to use their computational power and hence they’ll prove their work. The one miner who will first solve the puzzle will be able to mined the new block into blockchain.  
+
+**hash(data, previous hash, nonce) < target**  
+
+The output of the hash function is totally unpredictable hence it is just a try and test puzzle. Solving a puzzle means finding the nonce that is an integer number that will produce a hash who’s value should be less than the dynamically adjusted target.  
+
+
 ### Day 15
 #### <ins>**Proof-of-work**</ins>
 PoW is one of the consensus algorithms that prevent malicious activities in the network and ensure the security of blockchain. In order to mine the candidate block, miners compete and solve a cryptographic puzzle by using their computational power. The nodes with more computation power are most likely to mined the block and in order to mined the block they have to prove that they used their computational power, hence it’s called proof-of-work. Only the winning node would be able to append a new block into the blockchain system and every other node will update their own copy of blockchain accordingly. The basic idea is to have an algorithm that has a problem which is difficult to solve but easy to validate that the node has worked hard to guess the right answer. And other nodes can validate their work without doing the same hard work but with very small computation.
