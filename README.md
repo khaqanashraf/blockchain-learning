@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 17
+#### <ins>**Difficulty**</ins>
+Difficulty is defined by the network. It is the number of leading zeros in the hash guess puzzle. The idea is to guess the hash repeatedly until the output of the hash contains minimum leading zeros as defined by the difficulty. With increase in the number of leading zeros it gets harder to generate a hash from given data and guessed nonce that has sufficient number of zeros. So in summary with increase in difficulty more computational power required to mined the block. Increase in the difficulty reduces the window for hash guess. 
+
 ### Day 16
 #### <ins>**Cryptographic Puzzle**</ins>
 In order to add a new block into blockchain miners have to solve a cryptographic puzzle. The candidate block has the transactions data, previous block hash and timestamp. The idea is to guess a number that by combining with the block data will produce a hash for the block. The hash must be less than the dynamically adjusted target. The puzzle is a totally random try and test. To solve this puzzle miners have to use their computational power and hence they’ll prove their work. The one miner who will first solve the puzzle will be able to mined the new block into blockchain.  
