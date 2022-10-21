@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 18
+#### <ins>**Dynamically adjusted target**</ins>
+To solve the cryptographic puzzle a target is dynamically set. The generated hash of the new block must be less than this target. The target is updated every 2016 blocks in blockchain. And a block in Bitcoin is mined every 10 minutes so roughly the target is adjusted every 2 weeks.  
+
+**new_target = old_target * (actual time took for 2016 blocks / 2016*10 minutes)**
+
+
 ### Day 17
 #### <ins>**Difficulty**</ins>
 Difficulty is defined by the network. It is the number of leading zeros in the hash guess puzzle. The idea is to guess the hash repeatedly until the output of the hash contains minimum leading zeros as defined by the difficulty. With increase in the number of leading zeros it gets harder to generate a hash from given data and guessed nonce that has sufficient number of zeros. So in summary with increase in difficulty more computational power required to mined the block. Increase in the difficulty reduces the window for hash guess. 
