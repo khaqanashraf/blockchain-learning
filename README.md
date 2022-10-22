@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 19
+#### <ins>**Incentivisation**</ins>
+The miner who mines the new block will be incentivized with mining rewards from thin air. In Bitcoin mining is the only way to generate new Bitcoins out of nowhere. It motivitate miners to compete with each other to participate in the security of blockchain and get rewards and it is the clever way to generate revenue instead of fooling the network. When Bitcoin was started the mining reward was 25 and it decreased over time by half i.e. 12.5 and now the current mining reward of Bitcoin is 6.25. The incentive model is used to generate new currency and it also welcomes new nodes to participate in the transactions and mining. After every 210,000 blocks or roughly after 4 years the mining reward cut into half.
+
 ### Day 18
 #### <ins>**Dynamically adjusted target**</ins>
 To solve the cryptographic puzzle a target is dynamically set. The generated hash of the new block must be less than this target. The target is updated every 2016 blocks in blockchain. And a block in Bitcoin is mined every 10 minutes so roughly the target is adjusted every 2 weeks.  
