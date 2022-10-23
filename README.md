@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 20
+#### <ins>**Longest chain rule**</ins>
+This rule states that the longest chain in the blockchain network would be considered as the valid chain. When any node finds a new block the node then broadcasts the latest chain to every other node. Every node then validates this chain from block headers. If a malicious node is trying to mutate the original chain then this node must have the longest chain otherwise the network will keep on adding new blocks and the attacker then has to chase the rest of the network speed which is very much difficult to achieve. 
+
+
 ### Day 19
 #### <ins>**Incentivisation**</ins>
 The miner who mines the new block will be incentivized with mining rewards from thin air. In Bitcoin mining is the only way to generate new Bitcoins out of nowhere. It motivitate miners to compete with each other to participate in the security of blockchain and get rewards and it is the clever way to generate revenue instead of fooling the network. When Bitcoin was started the mining reward was 25 and it decreased over time by half i.e. 12.5 and now the current mining reward of Bitcoin is 6.25. The incentive model is used to generate new currency and it also welcomes new nodes to participate in the transactions and mining. After every 210,000 blocks or roughly after 4 years the mining reward cut into half.
