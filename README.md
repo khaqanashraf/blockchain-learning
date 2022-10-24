@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 21
+#### <ins>**51% attack**</ins>
+In a blockchain network, every decision is made on a voting system. Every transaction is validated by every other node in the system but the new transaction can only become part of the ledger only if the majority of nodes validate it and accept it as a valid transaction. Hence the census is the main characteristic of a decentralized system an attack can only be succeeded if the attacker controls the 51% power of the network. 
+
 ### Day 20
 #### <ins>**Longest chain rule**</ins>
 This rule states that the longest chain in the blockchain network would be considered as the valid chain. When any node finds a new block the node then broadcasts the latest chain to every other node. Every node then validates this chain from block headers. If a malicious node is trying to mutate the original chain then this node must have the longest chain otherwise the network will keep on adding new blocks and the attacker then has to chase the rest of the network speed which is very much difficult to achieve. 
