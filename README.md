@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 22
+#### <ins>**Byzantine generals problem**</ins>
+The Byzantine generals problem is the classical game theory problem which is defined as there being many generals and they have to attack a city. If they all attack at the same time they will win or else they’ll lose. The constraint is that their medium of communication is not fully secure so they have to achieve trust in a trustless environment. Also, there are some traitor generals as well as honest generals. Traitor generals can send false messages to other generals. The Byzantine General's Problem occurs only in decentralized systems and it is not the problem in centralized systems. Bitcoin is the first realized solution to the problem and before it, there was no absolute solution to the problem in a decentralized system. Bitcoin solves this problem by consensus protocol. 
+
 ### Day 21
 #### <ins>**51% attack**</ins>
 In a blockchain network, every decision is made on a voting system. Every transaction is validated by every other node in the system but the new transaction can only become part of the ledger only if the majority of nodes validate it and accept it as a valid transaction. Hence the census is the main characteristic of a decentralized system an attack can only be succeeded if the attacker controls the 51% power of the network. 
