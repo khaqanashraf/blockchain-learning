@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 23
+#### <ins>**Byzantine fault tolerance**</ins>
+Byzantine fault tolerance is the property of any system that keeps a decentralized system from falling into the Byzantine Generals' Problem. The idea is to keep the system functional and running even if some of the generals or nodes in the system do not respond or act maliciously. This property must be held in a decentralized system to work properly. 
+
 ### Day 22
 #### <ins>**Byzantine generals problem**</ins>
 The Byzantine generals problem is the classical game theory problem which is defined as there being many generals and they have to attack a city. If they all attack at the same time they will win or else they’ll lose. The constraint is that their medium of communication is not fully secure so they have to achieve trust in a trustless environment. Also, there are some traitor generals as well as honest generals. Traitor generals can send false messages to other generals. The Byzantine General's Problem occurs only in decentralized systems and it is not the problem in centralized systems. Bitcoin is the first realized solution to the problem and before it, there was no absolute solution to the problem in a decentralized system. Bitcoin solves this problem by consensus protocol. 
