@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 24
+#### <ins>**Merkle Tree**</ins>
+Merkle tree is a binary hash tree. Like other trees, the Merkle tree has a root node, intermediate nodes, and leaf nodes. The leaf nodes are data nodes and the other nodes are calculated using a hash function. The height of the tree depends upon the number of data nodes that is leaf nodes. By combining every two nodes and passing it to the hash function and going on to the top until a root hash is calculated. The tree is used for transaction validations as well. The hash of the tree is the commitment and the leaf nodes are part of the commitment. The block header in every block contains the root hash of Merkle tree. 
+
+
 ### Day 23
 #### <ins>**Byzantine fault tolerance**</ins>
 Byzantine fault tolerance is the property of any system that keeps a decentralized system from falling into the Byzantine Generals' Problem. The idea is to keep the system functional and running even if some of the generals or nodes in the system do not respond or act maliciously. This property must be held in a decentralized system to work properly. 
