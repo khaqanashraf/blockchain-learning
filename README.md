@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 25
+#### <ins>**Gambler’s ruin problem**</ins>
+The gambler’s ruin problem is the classic statistical problem which is to find the probability that a gambler will win all the wealth ‘k’ with his initial wealth of ‘i’ and start at any point of time ‘n’ and will play indefinitely until he wins or lose all of his wealth. It essentially ends up with success by gaining all wealth ‘k’ or 0 wealth and hence it’s called The Gambler’s ruin problem. The problem is mentioned in the Bitcoin white paper to calculate the probability that the attacker will win against the system and it reduces to nearly zero when more nodes are attached to the system. 
+
 ### Day 24
 #### <ins>**Merkle Tree**</ins>
 Merkle tree is a binary hash tree. Like other trees, the Merkle tree has a root node, intermediate nodes, and leaf nodes. The leaf nodes are data nodes and the other nodes are calculated using a hash function. The height of the tree depends upon the number of data nodes that is leaf nodes. By combining every two nodes and passing it to the hash function and going on to the top until a root hash is calculated. The tree is used for transaction validations as well. The hash of the tree is the commitment and the leaf nodes are part of the commitment. The block header in every block contains the root hash of Merkle tree. 
