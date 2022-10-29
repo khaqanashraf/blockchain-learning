@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 26
+#### <ins>**Markov’s chain**</ins>
+Markov’s chain in mathematics is the system that is used to represents sequence of states. One of the main property of Markov’s chain is that it’s memoryless that. That means to move to the next state it depends only on current state irrespective of how it comes to the current state. It is a probabilistic model and transition from any state to other state has a certain probability. Markov’s chain is a probabilistic model that can also be represented and solved using calculus. Gambler’s ruin problem in blockchain can also be represented and evaluated using Markov’s chain. 
+
 ### Day 25
 #### <ins>**Gambler’s ruin problem**</ins>
 The gambler’s ruin problem is the classic statistical problem which is to find the probability that a gambler will win all the wealth ‘k’ with his initial wealth of ‘i’ and start at any point of time ‘n’ and will play indefinitely until he wins or lose all of his wealth. It essentially ends up with success by gaining all wealth ‘k’ or 0 wealth and hence it’s called The Gambler’s ruin problem. The problem is mentioned in the Bitcoin white paper to calculate the probability that the attacker will win against the system and it reduces to nearly zero when more nodes are attached to the system. 
