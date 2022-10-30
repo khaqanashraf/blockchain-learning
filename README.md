@@ -1,4 +1,15 @@
 # Proof of passion for Blockchain technologies
+### Day 27
+#### <ins>**Block header**</ins>
+Blockchain is the sequence of blocks containing transaction data and proof of work of nodes. Each block roughly consists of three parts including the previous block hash, data, and current block hash. As the blockchain size keep on increasing with time it gets hard to download all blockchain for transaction validation and the smaller devices are unable to download the complete blockchain for validation. Hence they need to download the block headers. Download only the branch of transactions that contains the transaction to be validated. The block header contains the following information,  
+1. Previous block hash
+2. The root hash of Merkle tree
+3. The current hash of a block
+4. The nonce
+5. Timestamp
+6. difficulty
+
+
 ### Day 26
 #### <ins>**Markov’s chain**</ins>
 Markov’s chain in mathematics is the system that is used to represents sequence of states. One of the main property of Markov’s chain is that it’s memoryless that. That means to move to the next state it depends only on current state irrespective of how it comes to the current state. It is a probabilistic model and transition from any state to other state has a certain probability. Markov’s chain is a probabilistic model that can also be represented and solved using calculus. Gambler’s ruin problem in blockchain can also be represented and evaluated using Markov’s chain. 
