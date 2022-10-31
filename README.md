@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 28
+#### <ins>**Bitcoin blockchain**</ins>
+Bitcoin was the first realization of blockchain technology. Bitcoin is the first real decentralized network that solved the Byzantine generals' problem of game theory. But one thing must be mentioned the blockchain is not Bitcoin. Blockchain is the underlying technology that Bitcoin use. Bitcoin is a digital currency and is considered the first generation of blockchain. It is the decentralized system that keeps track of a certain amount of bitcoins in and out. Bitcoin uses the proof of work as its consensus protocol. It also has low-level scripting language that proved to be the basis of second-generation blockchain which found the Ethereum smart contracts. 
+
+
 ### Day 27
 #### <ins>**Block header**</ins>
 Blockchain is the sequence of blocks containing transaction data and proof of work of nodes. Each block roughly consists of three parts including the previous block hash, data, and current block hash. As the blockchain size keep on increasing with time it gets hard to download all blockchain for transaction validation and the smaller devices are unable to download the complete blockchain for validation. Hence they need to download the block headers. Download only the branch of transactions that contains the transaction to be validated. The block header contains the following information,  
