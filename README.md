@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 30
+#### <ins>**Zero knowledge proof**</ins>
+Zero knowledge proof in classical computer science is the idea to prove that someone has the knowledge but without revealing the actual knowledge. ZKP has two types namely interactive and noninteractive. In interactive ZKP two parties interact iteratively until a sound conclusion is drawn that a party has certain knowledge without revealing the actual knowledge to another party. But this has to be repeated whenever one party has to prove its knowledge to another party. In noninteractive ZKP the computation for proof is held only once. In some cases, it becomes infeasible to give proof to everybody by repeating the same process of computations. One thing more the ZKP does not completely make the probability of fraud to zero but it reduces the probability approaches to zero by having more computations such that it is extremely less probable to trick the system. 
+
 ### Day 29
 #### <ins>**Sybil Attack**</ins>
 Sybil's attack is a malicious attack on a p2p network. The idea is to have duplicate accounts of an attacker such that it makes it difficult for the system to determine the actual number of the user. The attack more commonly occurs on a p2p network system and it tries to take over the system. In blockchain, 51% attacks could be caused by the Sybil attack by sending invalid transactions and having multiple replicated malicious nodes to falsely approve and validate the invalid transaction. 
