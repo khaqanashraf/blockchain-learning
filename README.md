@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 31
+#### <ins>**Secure Multiparty computation**</ins>
+SMC is the subfiled of cryptography. The idea is multiple parties can compute something with their inputs without relying on third party while keeping their inputs private. Let’s say there is a  function that do some operations on the given inputs and compute some output. The inputs are encrypted and no one can decrypt the input except the one who has encrypted the inputs. But the function is capable of computing the certain operations on the encrypted inputs. For example let’s say, there are three parties X, Y and Z with their inputs x, y and z respectively
+They’ll compute the function to get an output for their inputs but the input will be private to other parties.  
+
+p = F(x, y, z)
+
+
 ### Day 30
 #### <ins>**Zero knowledge proof**</ins>
 Zero knowledge proof in classical computer science is the idea to prove that someone has the knowledge but without revealing the actual knowledge. ZKP has two types namely interactive and noninteractive. In interactive ZKP two parties interact iteratively until a sound conclusion is drawn that a party has certain knowledge without revealing the actual knowledge to another party. But this has to be repeated whenever one party has to prove its knowledge to another party. In noninteractive ZKP the computation for proof is held only once. In some cases, it becomes infeasible to give proof to everybody by repeating the same process of computations. One thing more the ZKP does not completely make the probability of fraud to zero but it reduces the probability approaches to zero by having more computations such that it is extremely less probable to trick the system. 
