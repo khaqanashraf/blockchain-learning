@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 32
+#### <ins>**Millionaire's problem**</ins>
+Millionaire's problem is the classical problem of secure multiparty computation. The problem is defined as there are two millionaires bet on each other. One of them has to offer a dinner that has more net worth than the other one without revealing their actual net worth. Furthermore they don’t want to rely on any third person to whom they disclose their networths. There should be some function that should compute something like following,  
+p = F(a, b)  
+p must be true if a>=b and false otherwise  
+  
+Inputs ‘a’ and ‘b’ must not reveal actual networth of any of the party
+
+
 ### Day 31
 #### <ins>**Secure Multiparty computation**</ins>
 SMC is the subfiled of cryptography. The idea is multiple parties can compute something with their inputs without relying on third party while keeping their inputs private. Let’s say there is a  function that do some operations on the given inputs and compute some output. The inputs are encrypted and no one can decrypt the input except the one who has encrypted the inputs. But the function is capable of computing the certain operations on the encrypted inputs. For example let’s say, there are three parties X, Y and Z with their inputs x, y and z respectively
