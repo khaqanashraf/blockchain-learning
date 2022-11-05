@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 33
+#### <ins>**Our solution to millionaire's problem**</ins>
+Our solution is the simpleset solution to millionair’s problem. Divide the networths into slabs of equal window. For each slab there is a half fold paper. One party will mark tick on only one half fold paper and arrange these papers in a sequence of slabs. All papers are empty only one has a tick on its bottom and it is hidden from the other party. The other party will mark tick and cross in all of the half fold papers in such a way that he will mark continuous ticks to his respective slab and will mark cross to uppar slabs to its networth and they are hidden to first party. Now all the folds are randomly mixed and only fetch the paper with tick on the bottom and destroy rest of the papers. Now if this paper has a tick that means the second party has equal or greater net worth and if there is a cross inside the half fold paper that means the second party has net worth less that the first party. 
+
+
 ### Day 32
 #### <ins>**Millionaire's problem**</ins>
 Millionaire's problem is the classical problem of secure multiparty computation. The problem is defined as there are two millionaires bet on each other. One of them has to offer a dinner that has more net worth than the other one without revealing their actual net worth. Furthermore they don’t want to rely on any third person to whom they disclose their networths. There should be some function that should compute something like following,  
