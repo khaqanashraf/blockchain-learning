@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 34
+#### <ins>**Nakamoto consensus**</ins>
+It was illustrated in the bitcoin whitepaper. The idea is that the voting does not depend on the number of majority nodes but rather depends on the computational power. It essentially prevents the Sybil attack. The paper introduces a concept proof of work that tells about a problem that is hard to solve but easy to validate. When a node solves the puzzle it broadcasts a new block to the entire network and every node comes to a consensus. But the new blocks propagate through the network at different speeds which might cause some of the nodes with different latest nodes. But eventually, everybody comes to the right consensus because they trust the longest chain. 
+
+
 ### Day 33
 #### <ins>**Our solution to millionaire's problem**</ins>
 Our solution is the simpleset solution to millionair’s problem. Divide the networths into slabs of equal window. For each slab there is a half fold paper. One party will mark tick on only one half fold paper and arrange these papers in a sequence of slabs. All papers are empty only one has a tick on its bottom and it is hidden from the other party. The other party will mark tick and cross in all of the half fold papers in such a way that he will mark continuous ticks to his respective slab and will mark cross to uppar slabs to its networth and they are hidden to first party. Now all the folds are randomly mixed and only fetch the paper with tick on the bottom and destroy rest of the papers. Now if this paper has a tick that means the second party has equal or greater net worth and if there is a cross inside the half fold paper that means the second party has net worth less that the first party. 
