@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 35
+#### <ins>**Cryptocurrency**</ins>
+It is a digital currency that is built using cryptography under the hood. It stores the transactions to and from one address to another. It just stores the amount coming in and going out. Cryptographic algorithms are heavily used to make cryptocurrency functional and secure. Bitcoin is a glorious example of cryptocurrency. 
+
 ### Day 34
 #### <ins>**Nakamoto consensus**</ins>
 It was illustrated in the bitcoin whitepaper. The idea is that the voting does not depend on the number of majority nodes but rather depends on the computational power. It essentially prevents the Sybil attack. The paper introduces a concept proof of work that tells about a problem that is hard to solve but easy to validate. When a node solves the puzzle it broadcasts a new block to the entire network and every node comes to a consensus. But the new blocks propagate through the network at different speeds which might cause some of the nodes with different latest nodes. But eventually, everybody comes to the right consensus because they trust the longest chain. 
