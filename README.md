@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 36
+#### <ins>**Bitcoin scripting language**</ins>
+Bitcoin supports a low level scripting language. The language supported by bitcoin is the stack based language which is used for simple operations to be done on the transaction. It is optional in the transaction. A simple dapp can be created on bitcoin as well but it has some limitations. But this is what who found the bases for smart contracts in Ethereum. 
+
 ### Day 35
 #### <ins>**Cryptocurrency**</ins>
 It is a digital currency that is built using cryptography under the hood. It stores the transactions to and from one address to another. It just stores the amount coming in and going out. Cryptographic algorithms are heavily used to make cryptocurrency functional and secure. Bitcoin is a glorious example of cryptocurrency. 
