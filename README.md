@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 37
+#### <ins>**Stack based scripting language**</ins>
+A stack based language is a kind of low level language. The main memory to store program’s data in this language is stack. While executing the program instructions are popped from stack one by one and executed. And when an operator is popped from stack let’s say a binary operator then the operands for this operator are also popped from stacked and then the operator is applied and result is pushed back in stack. Keep executing the instructions until the stack is empty. 
+
 ### Day 36
 #### <ins>**Bitcoin scripting language**</ins>
 Bitcoin supports a low level scripting language. The language supported by bitcoin is the stack based language which is used for simple operations to be done on the transaction. It is optional in the transaction. A simple dapp can be created on bitcoin as well but it has some limitations. But this is what who found the bases for smart contracts in Ethereum. 
