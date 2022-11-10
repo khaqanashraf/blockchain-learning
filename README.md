@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 38
+#### <ins>**Limitations of bitcoin**</ins>
+Bitcoin is the very first real working example of decentralized application that was purely built on blockchain technology. But bitcoin used to store only transactions records publicly in a ledger. It also supports a low level scripting language for transaction validation purposes. But this scripting language has lack of turing completeness. 
+
 ### Day 37
 #### <ins>**Stack based scripting language**</ins>
 A stack based language is a kind of low level language. The main memory to store program’s data in this language is stack. While executing the program instructions are popped from stack one by one and executed. And when an operator is popped from stack let’s say a binary operator then the operands for this operator are also popped from stacked and then the operator is applied and result is pushed back in stack. Keep executing the instructions until the stack is empty. 
