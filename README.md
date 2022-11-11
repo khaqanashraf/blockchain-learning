@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 39
+#### <ins>**State transition system**</ins>
+Consider blockchain as a state transition system. When a transaction is executed it either update the current to new state or sustains the current state if an error occurred.  
+  
+TX: S -> S`  
+TX: S-> S if an error occurred  
+
+
 ### Day 38
 #### <ins>**Limitations of bitcoin**</ins>
 Bitcoin is the very first real working example of decentralized application that was purely built on blockchain technology. But bitcoin used to store only transactions records publicly in a ledger. It also supports a low level scripting language for transaction validation purposes. But this scripting language has lack of turing completeness. 
