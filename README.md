@@ -1,10 +1,7 @@
 # Proof of passion for Blockchain technologies
-### Day 39
-#### <ins>**State transition system**</ins>
-Consider blockchain as a state transition system. When a transaction is executed it either update the current to new state or sustains the current state if an error occurred.  
-  
-TX: S -> S`  
-TX: S-> S if an error occurred  
+### Day 40
+#### <ins>**Turing completeness**</ins>
+A programming language is called a Turing complete language capable of performing all operations that a Turing machine can do including loops. Bitcoin scripting language does not contain this property of Turing completeness hence bitcoin is not sufficient for lots of tasks that can be done using a programming language for complex logic. 
 
 
 ### Day 38
