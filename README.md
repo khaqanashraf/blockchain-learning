@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 41
+#### <ins>**Ethereum blockchain**</ins>
+Ethereum is called the second generation blockchain technology whereas the first generation of blockchain is Bitcoin. Ethereum introduces the concept of smart contracts. With the capability of sending and receiving transactions as an executable piece of code on blockchain that is immutable. It uses proof of stack instead of proof of work. It also introduces new concepts like gas, gas fee and gas price etc. Ethereum also found the basis for fungible and non fungible tokens and assets. 
+
+
 ### Day 40
 #### <ins>**Turing completeness**</ins>
 A programming language is called a Turing complete language capable of performing all operations that a Turing machine can do including loops. Bitcoin scripting language does not contain this property of Turing completeness hence bitcoin is not sufficient for lots of tasks that can be done using a programming language for complex logic. 
