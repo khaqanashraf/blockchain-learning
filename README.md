@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 42
+#### <ins>**Smart contracts**</ins>
+Ethereum introduces the concept of smart contracts. It is an executable code sent to blockchain. No one can change the contract once it has been deployed on the blockchain. The functions of smart contracts can be called from external entities or other contracts. Smart contracts are like the classes in other programming languages but with different properties that other languages. It contains the property of turing completeness. 
+
 ### Day 41
 #### <ins>**Ethereum blockchain**</ins>
 Ethereum is called the second generation blockchain technology whereas the first generation of blockchain is Bitcoin. Ethereum introduces the concept of smart contracts. With the capability of sending and receiving transactions as an executable piece of code on blockchain that is immutable. It uses proof of stack instead of proof of work. It also introduces new concepts like gas, gas fee and gas price etc. Ethereum also found the basis for fungible and non fungible tokens and assets. 
