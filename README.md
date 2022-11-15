@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 43
+#### <ins>**Ethereum Accounts**</ins>
+An Ethereum account is an entity that has a balance and can send or receive transactions. It can be an external entity controlled by the user as a wallet or can be governed by a smart contract deployed on the blockchain.
+
+
 ### Day 42
 #### <ins>**Smart contracts**</ins>
 Ethereum introduces the concept of smart contracts. It is an executable code sent to blockchain. No one can change the contract once it has been deployed on the blockchain. The functions of smart contracts can be called from external entities or other contracts. Smart contracts are like the classes in other programming languages but with different properties that other languages. It contains the property of turing completeness. 
