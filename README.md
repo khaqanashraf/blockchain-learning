@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 44
+#### <ins>**External account and key pair**</ins>
+An external account holder holds the public private key pair. It does not holds the funds the funds are stored on the public ledger that can be calculated by the public address. The external account can also send transactions to the blockchain by singing the transaction with their private key and everyone on blockchain network can validate that transaction. 
+
+
 ### Day 43
 #### <ins>**Ethereum Accounts**</ins>
 An Ethereum account is an entity that has a balance and can send or receive transactions. It can be an external entity controlled by the user as a wallet or can be governed by a smart contract deployed on the blockchain.
