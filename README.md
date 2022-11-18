@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 47
+#### <ins>**Etherum messages**</ins>
+Ethereum messages are the data sent and received by the contracts or a transaction it self. They can used to pass data between two accounts. Can be initiated by the transactions or contracts
+
+### Day 46
+#### <ins>**Skipped**</ins>
+;(
+
 ### Day 45
 #### <ins>**Ethereum transaction**</ins>
 Ethereum transaction is the data signed and sent by an external entity to blockchain. Transactions are logged on blockchain. Transactions can send other messages and they’re called internal messages but they’re not transactions and neither they are logged on blockchain. 
