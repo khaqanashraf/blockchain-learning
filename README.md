@@ -3,6 +3,9 @@
 #### <ins>**Etherum messages**</ins>
 Ethereum messages are the data sent and received by the contracts or a transaction it self. They can used to pass data between two accounts. Can be initiated by the transactions or contracts
 
+#### <ins>**Gas**</ins>
+Gas is a term in Ethereum blockchain that determines how much computational effort is required. For every computation in a transaction, there is a gas defined and a fee of the transaction is deducted based on this gas. A gas fee must be paid for transaction execution. 
+
 ### Day 46
 #### <ins>**Skipped**</ins>
 ;(
