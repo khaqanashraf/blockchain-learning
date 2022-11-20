@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 48
+#### <ins>**Halting problem**</ins>
+In computer science, a halting problem is defined as there’s no such algorithm or technique by 
+which we can predict that either a program will infinitely run or will stop. In turing complete
+ language we face this problem and is named as Halting Problem. It is also mentioned in the
+ Ethereum whitepaper.
+
 ### Day 47
 #### <ins>**Etherum messages**</ins>
 Ethereum messages are the data sent and received by the contracts or a transaction it self. They can used to pass data between two accounts. Can be initiated by the transactions or contracts
