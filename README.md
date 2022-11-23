@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 51
+#### <ins>**ABI**</ins>
+When a program has complied it produces two outputs, one is bytecode and the other is ABI. ABI is the standard way to communicate the contract and it’s produced in JSON format. It contains function signatures of the contract, their inputs, and outputs along with data types.
+
 ### Day 50
 #### <ins>**Bytecode**</ins>
 The program for a smart contract is written in high-level programming languages like solidity. While the program is compiled it generates two outputs that are bytecode and ABI. Bytecode is the instructions in a low-level language that can be understood by the EVM. The byte code is not in human-readable form but can be readable to machines. It looks like the following,  
