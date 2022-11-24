@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 52
+#### <ins>**RLP**</ins>
+In Ethereum's execution layer there’s an encoding scheme used that is space-efficient to store arbitrary binary data. It is just used to encode structure type-specific data. It attaches prefix to every data and the first element of the array is the type followed by their size and then the data. 
+
+
 ### Day 51
 #### <ins>**ABI**</ins>
 When a program has complied it produces two outputs, one is bytecode and the other is ABI. ABI is the standard way to communicate the contract and it’s produced in JSON format. It contains function signatures of the contract, their inputs, and outputs along with data types.
