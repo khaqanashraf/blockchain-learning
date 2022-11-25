@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 53
+#### <ins>**Eth hash rate**</ins>
+Ethereum hash rate is a numeric value that defines how many hashes have been calculated by miners to find a new block. 
+
 ### Day 52
 #### <ins>**RLP**</ins>
 In Ethereum's execution layer there’s an encoding scheme used that is space-efficient to store arbitrary binary data. It is just used to encode structure type-specific data. It attaches prefix to every data and the first element of the array is the type followed by their size and then the data. 
