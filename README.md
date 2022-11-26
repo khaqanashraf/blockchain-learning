@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 54
+#### <ins>**Uncle block**</ins>
+In the bitcoin blockchain only one new block is mined and others are discarded. And if on the same network two different nodes have different leading blocks then they come to a consensus when new blocks are mined by using longest chain rule. But in ethereum blockchain if two blocks are mined at the same time then the chain has two leading nodes but one of them will continue the chain. The second node where the chain will not be increased is called the uncle block. The concept in ethereum is also introduced to give some cut to the node who has added an uncle block instead of completely discarding its efforts.
+
+
 ### Day 53
 #### <ins>**Eth hash rate**</ins>
 Ethereum hash rate is a numeric value that defines how many hashes have been calculated by miners to find a new block. 
