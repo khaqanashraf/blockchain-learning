@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 55
+#### <ins>**Ethereum Merkle Tree**</ins>
+Just like in the bitcoin blockchain Ethereum blockchain also has Merkle tree which is a data structure to store transactions in a binary tree and each parent node hash is made of the child node’s data. Merkle tree also has a root hash, if anything anywhere in the tree is changed then the root hash will no longer be the same. Also, in Ethereum, to validate a transaction, only the branch of Merkle tree of a block is downloaded instead of the whole blockchain and the whole Merkle tree. 
+
+
 ### Day 54
 #### <ins>**Uncle block**</ins>
 In the bitcoin blockchain only one new block is mined and others are discarded. And if on the same network two different nodes have different leading blocks then they come to a consensus when new blocks are mined by using longest chain rule. But in ethereum blockchain if two blocks are mined at the same time then the chain has two leading nodes but one of them will continue the chain. The second node where the chain will not be increased is called the uncle block. The concept in ethereum is also introduced to give some cut to the node who has added an uncle block instead of completely discarding its efforts.
