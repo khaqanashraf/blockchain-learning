@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 56
+#### <ins>**Namecoin**</ins>
+Namecoin is a decentralized application that is used to register names based on first to file paradigm. The same logic can be used to register domain names on decentralized. Once the domain name is registered by an owner no one can claim the same domain name unless the owner itself transfers it to someone else. This is a very basic example to understand the decentralized blockchain system. In Ethereum, the Namcoin-like application can be implemented with just a few lines of code. 
+
 ### Day 55
 #### <ins>**Ethereum Merkle Tree**</ins>
 Just like in the bitcoin blockchain Ethereum blockchain also has Merkle tree which is a data structure to store transactions in a binary tree and each parent node hash is made of the child node’s data. Merkle tree also has a root hash, if anything anywhere in the tree is changed then the root hash will no longer be the same. Also, in Ethereum, to validate a transaction, only the branch of Merkle tree of a block is downloaded instead of the whole blockchain and the whole Merkle tree. 
