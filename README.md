@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 57
+#### <ins>**Proof of stake**</ins>
+Proof of stake is the alternative to proof of work. In this consensus algorithm there are validators instead of miners. The validators are chosen based on the amount of native coin they’ve staked to become validator. The validators could be chosen based on the amount of coins stake, the time the validator has been validating in the network or they can be choosed randomly. Or all approaches can be combined to choose the validators. Validators then validate the blocks and gain the rewards if they do fraudulent activities then their funds can be slashed as a penalty. Ethereum is the blockchain network that is using proof of stake. 
+
 ### Day 56
 #### <ins>**Namecoin**</ins>
 Namecoin is a decentralized application that is used to register names based on first to file paradigm. The same logic can be used to register domain names on decentralized. Once the domain name is registered by an owner no one can claim the same domain name unless the owner itself transfers it to someone else. This is a very basic example to understand the decentralized blockchain system. In Ethereum, the Namcoin-like application can be implemented with just a few lines of code. 
