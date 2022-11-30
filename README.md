@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 58
+#### <ins>**Slashing**</ins>
+In the proof of stake consensus protocol when the validator is chosen then the validator has to validate a block. If the validator failed to validate the block for any reason like the node wasn’t setup properly or due to an internet issue, in either case, the amount they’ve staked maybe deducted as a penalty, this is called slashing.
+
 ### Day 57
 #### <ins>**Proof of stake**</ins>
 Proof of stake is the alternative to proof of work. In this consensus algorithm there are validators instead of miners. The validators are chosen based on the amount of native coin they’ve staked to become validator. The validators could be chosen based on the amount of coins stake, the time the validator has been validating in the network or they can be choosed randomly. Or all approaches can be combined to choose the validators. Validators then validate the blocks and gain the rewards if they do fraudulent activities then their funds can be slashed as a penalty. Ethereum is the blockchain network that is using proof of stake. 
