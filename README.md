@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 59
+#### <ins>**Delegated proof of stake**</ins>
+In proof-of-stake there is a concept if the validator has not setup the properly or is unable to perform as an active validator he can stake his funds and delegate the validation to another user who has setup the node properly and can participate as an active validator. This is called delegated proof of stake. 
+
 ### Day 58
 #### <ins>**Slashing**</ins>
 In the proof of stake consensus protocol when the validator is chosen then the validator has to validate a block. If the validator failed to validate the block for any reason like the node wasn’t setup properly or due to an internet issue, in either case, the amount they’ve staked maybe deducted as a penalty, this is called slashing.
