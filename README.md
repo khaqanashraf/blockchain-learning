@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 60
+#### <ins>**Proof of Activity**</ins>
+Proof-of-activity is the consensus algorithm which combinly use the PoW and PoS. it uses the best aspects of both algorithms. Miners start to find the new block as of PoW and when the new block is identified then the algorithm switched to PoS the validators are selected to validate newly found block if all validators validate the block it becomes complete block and added in blockchain. 
+
 ### Day 59
 #### <ins>**Delegated proof of stake**</ins>
 In proof-of-stake there is a concept if the validator has not setup the properly or is unable to perform as an active validator he can stake his funds and delegate the validation to another user who has setup the node properly and can participate as an active validator. This is called delegated proof of stake. 
