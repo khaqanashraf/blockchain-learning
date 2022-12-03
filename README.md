@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 61
+#### <ins>**Permissioned blockchain**</ins>
+Is basically a distributed ledger but the ledger is not accessible publicly. Only peers with required permissions or certificates can only allowed to access and perform certain actions on the ledger. Unlike bitcoin which is essentially permissionless and the ledger is publicly accessible by anyone. 
+
 ### Day 60
 #### <ins>**Proof of Activity**</ins>
 Proof-of-activity is the consensus algorithm which combinly use the PoW and PoS. it uses the best aspects of both algorithms. Miners start to find the new block as of PoW and when the new block is identified then the algorithm switched to PoS the validators are selected to validate newly found block if all validators validate the block it becomes complete block and added in blockchain. 
