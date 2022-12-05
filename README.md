@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 63
+#### <ins>**Proof of Burn**</ins>
+Is one of the consensus protocol of blockchain like PoW and PoS. It requires miners to burn their coins or currency to gain virtual rigs. When the miners get more virtual rigs the node can create a new block and they get rewards in native currency coin as block reward. While burning the coins it acts as PoW. By burning more coins it gets higher chance to become the winner like PoS. And the overall ecosystem acts under PoB.
+
 ### Day 62
 #### <ins>**Proof of elapsed time**</ins>
 Proof of elapsed time is similar to PoW but is much more energy efficient. HyperLedger Sawtooth currently uses PoET and it is a permissioned blockchain network. The idea is to carry a lottery system and the probability of winning for each node is equally likely each node is assigned a waiting time for that time the node will sleep and switch to another work. The node with the shortest wait time will awake and find the new block and the process is repeated. It seems that PoET is a less decentralized system. 
