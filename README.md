@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 64
+#### <ins>**Mainnet and Testnet**</ins>
+Blockchain mainnet is the network where real transactions take place. But for testing purposes, there are also test networks available to test smart contracts on by using virtual money instead of actual money this is because if the contract was not audited properly it might cause some financial loses. Although testnets have some drawbacks it is ideal for testing purposes whereas mainnet is more secure and decentralized. 
+
 ### Day 63
 #### <ins>**Proof of Burn**</ins>
 Is one of the consensus protocol of blockchain like PoW and PoS. It requires miners to burn their coins or currency to gain virtual rigs. When the miners get more virtual rigs the node can create a new block and they get rewards in native currency coin as block reward. While burning the coins it acts as PoW. By burning more coins it gets higher chance to become the winner like PoS. And the overall ecosystem acts under PoB.
