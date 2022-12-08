@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 66
+#### <ins>**Digital coins**</ins>
+Digital coins are primarily cryptocurrencies that are stored on computer systems and operate on computer networks. The unit of any digital cryptocurrency is called the coin; essentially, digital coins like BTC, ETH, and USDT are all digital coins. 
+
 ### Day 65
 #### <ins>**Hyperledger**</ins>
 It is a project founded by Linux foundation and contributed by many others like IBM and Intel. Hyperledger is an open source project created to support the development of blockchain-based distributed ledgers. Hyperledger consists of a collaborative effort to create the needed frameworks, standards, tools and libraries to build blockchains and related applications.
