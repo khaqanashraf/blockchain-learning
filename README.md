@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 67
+#### <ins>**Initial Coin Offering (ICO)**</ins>
+A company seeking to raise money to create a new coin, app, or service can launch an ICO as a way to raise funds. Interested investors can buy into an initial coin offering to receive a new cryptocurrency token issued by the company. This token may have some utility related to the product or service that the company is offering or represent a stake in the company or project.
+
+
 ### Day 66
 #### <ins>**Digital coins**</ins>
 Digital coins are primarily cryptocurrencies that are stored on computer systems and operate on computer networks. The unit of any digital cryptocurrency is called the coin; essentially, digital coins like BTC, ETH, and USDT are all digital coins. 
