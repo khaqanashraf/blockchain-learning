@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 68
+#### <ins>**Metamask**</ins>
+Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchain. Users can create and manage their wallets that are used to interact with the decentralized world. It is available in the browser, browser extension, and also in the mobile app. 
+
 ### Day 67
 #### <ins>**Initial Coin Offering (ICO)**</ins>
 A company seeking to raise money to create a new coin, app, or service can launch an ICO as a way to raise funds. Interested investors can buy into an initial coin offering to receive a new cryptocurrency token issued by the company. This token may have some utility related to the product or service that the company is offering or represent a stake in the company or project.
