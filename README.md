@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 69
+#### <ins>**Mist**</ins>
+The Mist browser was an Ethereum interface intended to allow users to access the various dApps available on the Ethereum network. It was also known as the Ethereum dApp Browser. 
+
+
 ### Day 68
 #### <ins>**Metamask**</ins>
 Metamask is a cryptocurrency wallet used to interact with the Ethereum blockchain. Users can create and manage their wallets that are used to interact with the decentralized world. It is available in the browser, browser extension, and also in the mobile app. 
