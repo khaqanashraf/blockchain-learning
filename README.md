@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 71
+#### <ins>**Embark**</ins>
+Embark is a framework that allows you to easily develop and deploy Decentralized Applications. Embark currently integrates with EVM blockchains (Ethereum), Decentralized Storages (IPFS), and Decentralized communication platforms (Whisper and Orbit). Swarm is supported for deployment. Embark is Framework for serverless Decentralized Applications using Ethereum, IPFS and other platforms
+
 ### Day 70
 #### <ins>**Truffle**</ins>
 Truffle is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier. Truffle is widely considered the most popular tool for blockchain application development with over 1.5 million lifetime downloads.
