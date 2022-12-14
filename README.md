@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 72
+#### <ins>**ERC**</ins>
+This subcategory of an EIP was dubbed the Ethereum Request for Comments, a.k.a. ERC. And so far, there have been many Ethereum Request for Comments to set standards for the tokens that can be created on Ethereum. So, all tokens that are created on Ethereum must follow the standards set by these ERCs. Hence, they are called ERC tokens. Today, there are three ERC standards that are most widely used on Ethereum: ERC20, ERC721, or ERC1155. And just in case you’re confused, the numbers following ERC are simply the serial numbers of ‘request for comments’ that proposed these standards.
+
 ### Day 71
 #### <ins>**Embark**</ins>
 Embark is a framework that allows you to easily develop and deploy Decentralized Applications. Embark currently integrates with EVM blockchains (Ethereum), Decentralized Storages (IPFS), and Decentralized communication platforms (Whisper and Orbit). Swarm is supported for deployment. Embark is Framework for serverless Decentralized Applications using Ethereum, IPFS and other platforms
