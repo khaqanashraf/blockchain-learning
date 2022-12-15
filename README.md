@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 73
+#### <ins>**Different Layers**</ins>
+At the beginning of the blockchain, era cryptocurrencies were just the native coin supported by the underlying blockchain technologies in the case of Bitcoin it was just BTC. We call the core of a blockchain network that maintains the security of blockchain by using different consensus protocols called Layer 1. With the advancement in blockchain technologies, more layers are added to layer 1. Well, there are many reasons to add more layers to blockchain and one of them is the scalability and limitations of decentralized blockchain technology to communicate to the outer world. 
+
 ### Day 72
 #### <ins>**ERC**</ins>
 This subcategory of an EIP was dubbed the Ethereum Request for Comments, a.k.a. ERC. And so far, there have been many Ethereum Request for Comments to set standards for the tokens that can be created on Ethereum. So, all tokens that are created on Ethereum must follow the standards set by these ERCs. Hence, they are called ERC tokens. Today, there are three ERC standards that are most widely used on Ethereum: ERC20, ERC721, or ERC1155. And just in case you’re confused, the numbers following ERC are simply the serial numbers of ‘request for comments’ that proposed these standards.
