@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 74
+#### <ins>**Layer 1**</ins>
+Layer1 is the core layer for blockchain and it maintains the security of distributed ledger and transactions. It just supports the native blockchain token like in Bitcoin it’s BTC and in Ethereum blockchain it’s ETH. Other layers built on top of layer to add more functionality in blockchain but layer 1 works as is. 
+
 ### Day 73
 #### <ins>**Different Layers**</ins>
 At the beginning of the blockchain, era cryptocurrencies were just the native coin supported by the underlying blockchain technologies in the case of Bitcoin it was just BTC. We call the core of a blockchain network that maintains the security of blockchain by using different consensus protocols called Layer 1. With the advancement in blockchain technologies, more layers are added to layer 1. Well, there are many reasons to add more layers to blockchain and one of them is the scalability and limitations of decentralized blockchain technology to communicate to the outer world. 
