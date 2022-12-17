@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 75
+#### <ins>**Rollups**</ins>
+Deriver their security from base layer instead of side chain. Blockchain rollups 'roll up' or compile a bunch of transactions and turn them into one single data and submit it to the Ethereum mainnet. They take the transactions out of the mainnet and process them off-chain, convert them into one single piece of data, and submit them back to the Ethereum mainnet.
+
 ### Day 74
 #### <ins>**Layer 1**</ins>
 Layer1 is the core layer for blockchain and it maintains the security of distributed ledger and transactions. It just supports the native blockchain token like in Bitcoin it’s BTC and in Ethereum blockchain it’s ETH. Other layers built on top of layer to add more functionality in blockchain but layer 1 works as is. 
