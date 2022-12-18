@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 77
+#### <ins>**Sharding**</ins>
+In ethereum 2.0 sharding is the solution for a scalbility problem. Sharding is a process that divides the whole network of a blockchain organization into several smaller networks, referred to as “shards.” Because it contains data that is unique to it, one shard stands out as unique and independent of other shards.
+
+### Day 76
+#### <ins>**Missed :)**</ins>
+
 ### Day 75
 #### <ins>**Rollups**</ins>
 Deriver their security from base layer instead of side chain. Blockchain rollups 'roll up' or compile a bunch of transactions and turn them into one single data and submit it to the Ethereum mainnet. They take the transactions out of the mainnet and process them off-chain, convert them into one single piece of data, and submit them back to the Ethereum mainnet.
