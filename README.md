@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 78
+#### <ins>**Beacon chain**</ins>
+Ethereum started employing two parallel blockchains in December 2020: a legacy chain for proof of work (Ethereum Mainnet) and a new chain for proof of stake (Beacon Chain). The merging of Ethereum's Mainnet and Beacon Chain created a single, proof-of-stake-based blockchain. Since its introduction in 2020, The Beacon Chain has served as a proof-of-stake ledger on the Mainnet.
+
 ### Day 77
 #### <ins>**Sharding**</ins>
 In ethereum 2.0 sharding is the solution for a scalbility problem. Sharding is a process that divides the whole network of a blockchain organization into several smaller networks, referred to as “shards.” Because it contains data that is unique to it, one shard stands out as unique and independent of other shards.
