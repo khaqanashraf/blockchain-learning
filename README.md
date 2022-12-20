@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 79
+#### <ins>**Eth Merge**</ins>
+On Sept 6th 2022 the Beacon chain was merged into Ethereum main net. This event is called the merge. The major upgrade of this merge for ethereum was to switch from Ethereum Proof-of-Work to Proof-of-Stake. 
+
 ### Day 78
 #### <ins>**Beacon chain**</ins>
 Ethereum started employing two parallel blockchains in December 2020: a legacy chain for proof of work (Ethereum Mainnet) and a new chain for proof of stake (Beacon Chain). The merging of Ethereum's Mainnet and Beacon Chain created a single, proof-of-stake-based blockchain. Since its introduction in 2020, The Beacon Chain has served as a proof-of-stake ledger on the Mainnet.
