@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 80
+#### <ins>**Cardano**</ins>
+Cardano is a public blockchain platform. It is open-source and decentralized, with consensus achieved using proof of stake. It can facilitate peer-to-peer transactions with its internal cryptocurrency, ADA. The Cardano development approach is different from Bitcoin and Ethereum in a way, that it built from research that is research papers are used instead of whitepapers. 
+
 ### Day 79
 #### <ins>**Eth Merge**</ins>
 On Sept 6th 2022 the Beacon chain was merged into Ethereum main net. This event is called the merge. The major upgrade of this merge for ethereum was to switch from Ethereum Proof-of-Work to Proof-of-Stake. 
