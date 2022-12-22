@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 81
+#### <ins>**Parent chain vs side chain**</ins>
+A parent chain is the main blockchain in the network. It’s called a parent chain because stemming from it are one or more sidechains. A sidechain is a type of blockchain that exists parallel to the parent chain. 
+
 ### Day 80
 #### <ins>**Cardano**</ins>
 Cardano is a public blockchain platform. It is open-source and decentralized, with consensus achieved using proof of stake. It can facilitate peer-to-peer transactions with its internal cryptocurrency, ADA. The Cardano development approach is different from Bitcoin and Ethereum in a way, that it built from research that is research papers are used instead of whitepapers. 
