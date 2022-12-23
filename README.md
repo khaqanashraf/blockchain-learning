@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 82
+#### <ins>**First price auction**</ins>
+In the first-price auction model, bidders participate in the auction simultaneously, and the highest bidder wins. The highest bidder pays the exact price per thousand ad impressions (CPM) that he bid during the auction. The winning bid is also known as the clearing price. First-price auctions generally favor publishers more than second-price auctions. In a survey by Digiday, 78% of publishers said the transition from second-price to first-price auction helped them maximize their ad revenues.
+
+
 ### Day 81
 #### <ins>**Parent chain vs side chain**</ins>
 A parent chain is the main blockchain in the network. It’s called a parent chain because stemming from it are one or more sidechains. A sidechain is a type of blockchain that exists parallel to the parent chain. 
