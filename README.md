@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 83
+#### <ins>**EIP-1559**</ins>
+EIP-1559 has changed Ethereum’s fee market mechanism. Fundamentally, EIP-1559 gets rid of the first-price auction as the main gas fee calculation. In first-price auctions, people bid a set amount of money to pay for their transaction to be processed, and the highest bidder wins. With EIP-1559, there will be a discrete “base fee” for transactions to be included in the next block. For users or applications that want to prioritize their transaction, they can add a “tip,” which is called a “priority fee” to pay a miner for faster inclusion. 
+
+
 ### Day 82
 #### <ins>**First price auction**</ins>
 In the first-price auction model, bidders participate in the auction simultaneously, and the highest bidder wins. The highest bidder pays the exact price per thousand ad impressions (CPM) that he bid during the auction. The winning bid is also known as the clearing price. First-price auctions generally favor publishers more than second-price auctions. In a survey by Digiday, 78% of publishers said the transition from second-price to first-price auction helped them maximize their ad revenues.
