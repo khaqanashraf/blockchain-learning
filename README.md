@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 84
+#### <ins>**The oracle problem**</ins>
+The oracle problem arises because blockchains have no secure and meaningful means to interact with external sources of data owing to their unique features. As we all know, blockchains are purely decentralized, immutable and secure it is hard to communicate smart contracts on blockchain to interact with outer world without relying on a central server. 
+
+
 ### Day 83
 #### <ins>**EIP-1559**</ins>
 EIP-1559 has changed Ethereum’s fee market mechanism. Fundamentally, EIP-1559 gets rid of the first-price auction as the main gas fee calculation. In first-price auctions, people bid a set amount of money to pay for their transaction to be processed, and the highest bidder wins. With EIP-1559, there will be a discrete “base fee” for transactions to be included in the next block. For users or applications that want to prioritize their transaction, they can add a “tip,” which is called a “priority fee” to pay a miner for faster inclusion. 
