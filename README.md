@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 85
+#### <ins>**Blockchain Oracle**</ins>
+Any device that provide data to blockchain is called blockchain oracle.
+
 ### Day 84
 #### <ins>**The oracle problem**</ins>
 The oracle problem arises because blockchains have no secure and meaningful means to interact with external sources of data owing to their unique features. As we all know, blockchains are purely decentralized, immutable and secure it is hard to communicate smart contracts on blockchain to interact with outer world without relying on a central server. 
