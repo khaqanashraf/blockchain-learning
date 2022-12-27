@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 86
+#### <ins>**Hybrid smart contracts**</ins>
+Hybrid smart contracts are the combination of offchain and onchain agreements. 
+
 ### Day 85
 #### <ins>**Blockchain Oracle**</ins>
 Any device that provide data to blockchain is called blockchain oracle.
