@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 87
+#### <ins>**Mocking**</ins>
+Mocking a contract essentially means creating a second version of that contract which behaves very similar to the original one, but in a way that can be easily controlled by the developer. The purpose of mocking is to isolate and focus on the code being tested and not on the behavior or state of external dependencies. In mocking, the dependencies are replaced by closely controlled replacements objects that simulate the behavior of the real ones.
+
 ### Day 86
 #### <ins>**Hybrid smart contracts**</ins>
 Hybrid smart contracts are the combination of offchain and onchain agreements. 
