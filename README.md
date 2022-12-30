@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 89
+#### <ins>**ethers.js**</ins>
+Ethers.js is a Javascript library used to interact with ethereum blockchain ecosystems. It can be used to create, deploy, test and interact with smart contracts in js. The other library used to do the same work is Web3.js. Both are great libraries in web3 development. 
+
+
 ### Day 88
 #### <ins>**Remix IDE**</ins>
 Remix IDE, is a no-setup tool with a GUI for developing smart contracts. Used by experts and beginners alike, Remix will get you going in double time. Remix plays well with other tools, and allows for a simple deployment process to the chain of your choice. Remix is famous for our visual debugger.
