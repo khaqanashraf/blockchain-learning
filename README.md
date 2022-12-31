@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 90
+#### <ins>**Ganache**</ins>
+Ganache is a private Ethereum blockchain environment that allows to you emulate the Ethereum blockchain so that you can interact with smart contracts in your own private blockchain. Here are some features that Ganache provides: Displays blockchain log output. Provides advanced mining control. Built-in block explorer.
+
 ### Day 89
 #### <ins>**ethers.js**</ins>
 Ethers.js is a Javascript library used to interact with ethereum blockchain ecosystems. It can be used to create, deploy, test and interact with smart contracts in js. The other library used to do the same work is Web3.js. Both are great libraries in web3 development. 
