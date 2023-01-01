@@ -1,0 +1,23 @@
+{
+  "name": "chainlearning",
+  "version": "1.0.0",
+  "description": "Proof of passion for Blockchain technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khqnn/chainlearning.git"
+  },
+  "author": "Khaqan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khqnn/chainlearning/issues"
+  },
+  "homepage": "https://github.com/khqnn/chainlearning#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
+  }
+}

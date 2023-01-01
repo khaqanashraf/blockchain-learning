@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 91
+#### <ins>**Setup**</ins>
+For blockchain development the local setup is done with following steps,
+1. Node installed
+2. A Node project is created using npm init  
+3. License is MIT
+4. A contracts folder with a HelloWorld contract
+5. dotenv and ethers dev dependencies are installed
 ### Day 90
 #### <ins>**Ganache**</ins>
 Ganache is a private Ethereum blockchain environment that allows to you emulate the Ethereum blockchain so that you can interact with smart contracts in your own private blockchain. Here are some features that Ganache provides: Displays blockchain log output. Provides advanced mining control. Built-in block explorer.
