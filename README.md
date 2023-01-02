@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 92
+#### <ins>**Compile**</ins>
+HelloWorld smart contract compiled using solc js by running following command  
+**npx solc --bin --abi --base-path . --include-path node_modules -o ./outputs contracts/HelloWorld.sol**  
+The above command is included into package.json and the HelloWorld contract can alos be compiled from following command  
+**yarn compile**
+
 ### Day 91
 #### <ins>**Setup**</ins>
 For blockchain development the local setup is done with following steps,
