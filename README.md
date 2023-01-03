@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 93
+#### <ins>**Deploy Contract Locally**</ins>
+The hellow world contract that was compiled is now deployed locally on ganache by using private key provided by Ganache, rpc url and chainId with ethers ContractFactory. A script is writen named as deployLocalContractFactory.js and the script executed by following command,  
+**node scripts/deployLocalContractFactory.js**  
+The output of the script is as follow,  
+The contract is deployed on address: 0x2812d79c7321197EF99780F4954a882A0C7DB096  
+Program executed successfully!
+
 ### Day 92
 #### <ins>**Compile**</ins>
 HelloWorld smart contract compiled using solc js by running following command  
