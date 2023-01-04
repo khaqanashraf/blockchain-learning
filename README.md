@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 94
+#### <ins>**Deploy Contract Locally by sending raw transaction**</ins>
+The HelloWorld contract is deployed by sending raw transaction in ganache local chain by running the following command  
+**node scripts/deployLocalTransaction.js**  
+Following output logged in terminal
+The contract is deployed on address: 0xd6BCc70512aC0D491d888d48C35E3282c226bf30  
+Program executed successfully!  
+
 ### Day 93
 #### <ins>**Deploy Contract Locally**</ins>
 The hellow world contract that was compiled is now deployed locally on ganache by using private key provided by Ganache, rpc url and chainId with ethers ContractFactory. A script is writen named as deployLocalContractFactory.js and the script executed by following command,  
