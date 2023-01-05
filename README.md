@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 95
+#### <ins>**Create Metamask account**</ins>
+1. Add metamask extention in browser and create account  
+2. The public address of metamask account is : 0x7bb1Dff3cFa2c96034574D43396Cf6F0dAb506c8  
+3. Exported private key of account  
+4. Added BSC testnet in metamask  
+5. Transfered BNB to this wallet on bsc testnet from bsc faucet  
+https://testnet.binance.org/faucet-smart  
+
+
 ### Day 94
 #### <ins>**Deploy Contract Locally by sending raw transaction**</ins>
 The HelloWorld contract is deployed by sending raw transaction in ganache local chain by running the following command  
