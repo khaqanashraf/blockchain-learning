@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 96
+#### <ins>**Deploy Contract on Testnet**</ins>
+Created script to deploy the HelloWorld contract on BSC testnet by using ethers contract factory. The wallet that was created in previous step is used to deploy the contract by running the following command,  
+**node scripts/deployTestnetContractFactory**  
+The contract is deployed on testnet successfully following is the address to HelloWorld contract  
+https://testnet.bscscan.com/address/0xa83Fe98ED15BEeBEE044E6D92E9F7e2b1762Ee1E  
+
+
 ### Day 95
 #### <ins>**Create Metamask account**</ins>
 1. Add metamask extention in browser and create account  
