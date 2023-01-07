@@ -1,4 +1,17 @@
 # Proof of passion for Blockchain technologies
+### Day 97
+#### <ins>**Hardhat setup**</ins>
+1. install hardhat and hardhat toolbox
+2. hardhat config setup
+3. started hardhat node
+4. write a new script to deploy contract using hardhat ethers contract factory
+5. compiled contracts by using command **npx hardhat compile**
+6. deploy contract on local hardhat by using the following command **npx hardhat --network localhost run scripts/deployLocalHardhat.js**
+
+following output thrown,  
+The contract is deployed on address: 0x5FbDB2315678afecb367f032d93F642f64180aa3  
+Program executed successfully!
+
 ### Day 96
 #### <ins>**Deploy Contract on Testnet**</ins>
 Created script to deploy the HelloWorld contract on BSC testnet by using ethers contract factory. The wallet that was created in previous step is used to deploy the contract by running the following command,  
