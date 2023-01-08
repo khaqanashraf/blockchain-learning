@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 98
+#### <ins>**env setup**</ins>
+1. env package is installed
+2. rpc url and private key included in env
+3. hardhat config is also updated to setup a new network and values are fetched from env
+4. npx hardhat --network bsc run scripts/deployLocalHardhat.js
+
 ### Day 97
 #### <ins>**Hardhat setup**</ins>
 1. install hardhat and hardhat toolbox
