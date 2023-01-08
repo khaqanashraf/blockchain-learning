@@ -13,6 +13,6 @@ main().then(() => {
     console.log('Program executed successfully!');
 }).catch((e) => { 
 
-    console.log('An error occured during execution with following error,');
+    console.log('An error occured during execution with following error.');
     console.log(e);
 })
