@@ -1,4 +1,17 @@
 # Proof of passion for Blockchain technologies
+### Day 99
+#### <ins>**verify contract**</ins>
+1. hardhat config updated to add bsctestnet and etherscan api
+2. HellowWorld contract that was previously deployed is verified using following command
+3. npx hardhat verify --network bscTestnet 0xa83Fe98ED15BEeBEE044E6D92E9F7e2b1762Ee1E
+4. following output was thrown
+Successfully submitted source code for contract
+contracts/HelloWorld.sol:HelloWorld at 0xa83Fe98ED15BEeBEE044E6D92E9F7e2b1762Ee1E
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract HelloWorld on Etherscan.
+https://testnet.bscscan.com/address/0xa83Fe98ED15BEeBEE044E6D92E9F7e2b1762Ee1E#code
+
 ### Day 98
 #### <ins>**env setup**</ins>
 1. env package is installed
