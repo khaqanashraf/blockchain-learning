@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 100
+#### <ins>**Finishing**</ins>
+1. write a script to deploy each contract by iterating each of contracts
+2. save deployed contract address to same json
+3. write a script to verify each contract on etherscan or bscscan 
+4. following two commands are used to deploy and verify each contract
+
+**npx hardhat --network bscTestnet run scripts/deploy.js**  
+**npx hardhat --network bscTestnet run scripts/verify.js** 
+
 ### Day 99
 #### <ins>**verify contract**</ins>
 1. hardhat config updated to add bsctestnet and etherscan api
