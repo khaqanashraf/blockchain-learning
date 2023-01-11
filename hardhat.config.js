@@ -1,7 +1,7 @@
 /** @type import('hardhat/config').HardhatUserConfig */
 require('dotenv').config()
 require( "@nomicfoundation/hardhat-toolbox")
-require("@nomiclabs/hardhat-etherscan")
+require("hardhat-deploy")
 
 const RPC_URL = process.env.RPC_URL
 const PRIVATE_KEY = process.env.PRIVATE_KEY

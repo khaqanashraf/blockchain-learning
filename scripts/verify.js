@@ -20,14 +20,17 @@ const verifyContract = async (contractAddress, constructorArguments) => {
 
 async function main() {
     const networkIdentifier = network.name
-    const contracts = require('./contracts.json')
+    const contracts = require('../contracts.json')
 
     /**
      * Iterate over each contract, get contract name, constructor arguments and verify on etherscan or bscscan using hardhat
      */
-    for(let contractData of contracts){
+    const contractNames = Object.keys(contracts)
+    for(let contractName of contractNames){
+        const contractData = contracts[contractName]
         const contractAddress = contractData[networkIdentifier].address
-        const constructorArguments = contractData.args
+        const constructorArguments = contractData[networkIdentifier].args
+
         await verifyContract(contractAddress, constructorArguments)
     }
 }
