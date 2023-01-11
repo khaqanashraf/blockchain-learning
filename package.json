@@ -4,7 +4,9 @@
   "description": "Proof of passion for Blockchain technologies",
   "main": "index.js",
   "scripts": {
-    "compile": "npx solc --bin --abi --base-path . --include-path node_modules -o ./outputs contracts/HelloWorld.sol"
+    "deploy:local": "npx hardhat --network localhost deploy",
+    "deploy:bscTestnet": "npx hardhat --network bscTestnet deploy",
+    "verify:bscTestnet": "npx hardhat --network bscTestnet run scripts/verify.js"
   },
   "repository": {
     "type": "git",
