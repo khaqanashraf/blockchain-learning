@@ -1,4 +1,15 @@
 # Proof of passion for Blockchain technologies
+### Day 101
+#### <ins>**Hardhat deploy**</ins>
+1. npm install --save-dev hardhat-deploy
+2. include hardhat-deploy in hardhat.config
+3. create a new folder deploy
+4. write a deploy script 00_hello_world.js in deploy folder
+5. the deploy script use hardhat ethers contract factory and save deployed contract address in contracts.json in root directory
+6. **npx hardhat --network localhost deploy**
+7. above command used to deploy each of the contract in deploy directory
+8. package.json modified to use command **yarn deploy:local** to deploy all contracts on localhost
+
 ### Day 100
 #### <ins>**Finishing**</ins>
 1. write a script to deploy each contract by iterating each of contracts
