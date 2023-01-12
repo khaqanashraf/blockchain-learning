@@ -1,4 +1,10 @@
 # Proof of passion for Blockchain technologies
+### Day 102: Solidity
+#### <ins>**Source code**</ins>
+1. Source code of solidity must be writen in a file with extention of .sol
+2. It is a high level language
+3. Solidity is a staticaly typed language
+
 ### Day 101
 #### <ins>**Hardhat deploy**</ins>
 1. npm install --save-dev hardhat-deploy
