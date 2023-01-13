@@ -1,4 +1,10 @@
 # Proof of passion for Blockchain technologies
+### Day 103: Solidity
+#### <ins>**Compilation**</ins>
+1. solidity has its own compiler that is designed to run on Ethereum Virtual Machine
+2. as solidity is a statically typed language so compile time errors can be traced during compilation
+3. the compilation process yeilds two outputs that are 1) ABI and 2) Bytecode
+
 ### Day 102: Solidity
 #### <ins>**Source code**</ins>
 1. Source code of solidity must be writen in a file with extention of .sol
