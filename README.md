@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 104: Solidity
+#### <ins>**Source code, Bytecode and opcode**</ins>
+1. bytecode can be generated from source code but it is not fully but nearly impossible to generate source code from bytecode
+2. opcoe can be generated from the byte code
+3. it is bytecode that will be deployed on the blockchain
+4. contract's bytecode is public whereas source code is private but it can be made public. 
+
 ### Day 103: Solidity
 #### <ins>**Compilation**</ins>
 1. solidity has its own compiler that is designed to run on Ethereum Virtual Machine
