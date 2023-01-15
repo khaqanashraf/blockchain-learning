@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 105: Solidity
+#### <ins>**Preprocessors**</ins>
+1. Like other typed languages solidity also has preprocessor commands
+2. the very first command of solidity must use license identifier
+3. the second preprocessor command must tell which verision of solidity does the program support
+4. for defining version of solidity we can explicitly mention the exact version of solidity that is supported
+5. for backward compatability we can mention from which base version to onward versions the program is written for by using a '^' symbol
+
 ### Day 104: Solidity
 #### <ins>**Source code, Bytecode and opcode**</ins>
 1. bytecode can be generated from source code but it is not fully but nearly impossible to generate source code from bytecode
