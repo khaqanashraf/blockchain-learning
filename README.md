@@ -1,5 +1,5 @@
 # Proof of passion for Blockchain technologies
-### Day 105: Solidity
+### Day 106: Solidity
 #### <ins>**counter smart contract**</ins>
 1. a basic counter smart contract writen as Counter.sol
 2. a state variable count is declared and intialized in constructor with value 0
