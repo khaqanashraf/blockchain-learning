@@ -1,5 +1,17 @@
 # Proof of passion for Blockchain technologies
 ### Day 105: Solidity
+#### <ins>**counter smart contract**</ins>
+1. a basic counter smart contract writen as Counter.sol
+2. a state variable count is declared and intialized in constructor with value 0
+3. two public functions are declared to increment and decrement count state variable
+4. a deploy script is added to deploy Counter smart contract
+5. yarn deploy:local deploy both contracts in local and get following output
+
+The contract "HelloWorld" is deployed on address: 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0  
+The contract "Counter" is deployed on address: 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+
+
+### Day 105: Solidity
 #### <ins>**Preprocessors**</ins>
 1. Like other typed languages solidity also has preprocessor commands
 2. the very first command of solidity must use license identifier
