@@ -4,6 +4,7 @@
   "description": "Proof of passion for Blockchain technologies",
   "main": "index.js",
   "scripts": {
+    "test:local": "npx hardhat --network localhost test",
     "deploy:local": "npx hardhat --network localhost deploy",
     "deploy:bscTestnet": "npx hardhat --network bscTestnet deploy",
     "verify:bscTestnet": "npx hardhat --network bscTestnet run scripts/verify.js"
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@nomiclabs/hardhat-etherscan": "^3.1.4",
+    "chai": "^4.3.7",
     "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
     "hardhat": "^2.12.5",
