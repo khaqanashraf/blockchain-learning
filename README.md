@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 107: Solidity
+#### <ins>**Testcases for Counter.sol**</ins>
+1. to run test cases on local dev for smart contract Counter.sol is added
+2. chai is used to assert test cases
+3. npx hardhat --network localhost test
+4. above command added in package.json to run it on local by using **yarn test:local**
+5. all test cases for Counter.sol smart contract are passed
+
 ### Day 106: Solidity
 #### <ins>**counter smart contract**</ins>
 1. a basic counter smart contract writen as Counter.sol
