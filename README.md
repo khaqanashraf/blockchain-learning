@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 108: Solidity
+#### <ins>**Primitive data types**</ins>
+1. created a new smart contract named Primitives.sol
+2. create a new deploy script deploy/02_primitives.js
+3. run **yarn deploy:local** to deploy contracts on local
+
+
 ### Day 107: Solidity
 #### <ins>**Testcases for Counter.sol**</ins>
 1. to run test cases on local dev for smart contract Counter.sol is added
