@@ -11,7 +11,7 @@ if (network.name === 'localhost')
             contract = await Contract.deploy()
         })
 
-        it('Should deploy smart contract to local environment', async () => {
+        it(`Should deploy ${CONTRACT_NAME} smart contract to local environment`, async () => {
             assert(contract.address, 'Contract is not deployed successfuly!')
         })
 
