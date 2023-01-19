@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 109: Solidity
+#### <ins>**Unit test for Primitives smart contract**</ins>
+1. unit tests script for primitives smart contract on local
+2. primitives.test.js
+3. run **yarn test:local** and it will run all local test cases
+
+
 ### Day 108: Solidity
 #### <ins>**Primitive data types**</ins>
 1. created a new smart contract named Primitives.sol
