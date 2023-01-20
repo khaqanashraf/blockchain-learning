@@ -21,8 +21,10 @@ if (network.name === 'localhost')
             const smallUInt = Number( await contract.smallUInt())
             const uInt = Number( await contract.uInt())
             const flag = Boolean( await contract.flag())
+            const address = String( await contract.addr())
+            const bytes = String( await contract.bt())
 
-            const valid = smallInt===9 && num===-20 && smallUInt===10 && uInt===1200 && flag===true
+            const valid = smallInt===9 && num===-20 && smallUInt===10 && uInt===1200 && flag===true && address==='0x36C02dA8a0983159322a80FFE9F24b1acfF8B570' && bytes==='0x61'
 
             assert(valid , 'Could not get variables of primitive data types')
         })
@@ -33,8 +35,10 @@ if (network.name === 'localhost')
             const defaultSmallUInt = Number( await contract.defaultSmallUInt())
             const defaultUInt = Number( await contract.defaultUInt())
             const defaultBool = Boolean( await contract.defaultBool())
-            
-            const valid = defaultSmallInt===0 && defaultInt===0 && defaultSmallUInt===0 && defaultUInt===0 && defaultBool===false
+            const defaultAddress = String( await contract.defaultAddress())
+            const defaultBytes = String( await contract.defaultBytes())
+
+            const valid = defaultSmallInt===0 && defaultInt===0 && defaultSmallUInt===0 && defaultUInt===0 && defaultBool===false && defaultAddress==='0x0000000000000000000000000000000000000000' && defaultBytes==='0x00'
 
             assert(valid , 'Could not get default values of primitive data type variables')
         })

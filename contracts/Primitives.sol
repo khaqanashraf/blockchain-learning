@@ -24,6 +24,12 @@ contract Primitives {
     uint8 public defaultSmallUInt;
     uint public defaultUInt;
 
+    address public addr = 0x36C02dA8a0983159322a80FFE9F24b1acfF8B570;
+    bytes1 public bt = 0x61;
+
+    address public defaultAddress;
+    bytes1 public defaultBytes;
+
     constructor() {
         smallInt = 9;
         num = -20;
