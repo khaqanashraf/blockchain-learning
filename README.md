@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 110: Solidity
+#### <ins>**Address and bytes data type**</ins>
+1. added address and bytes data type in Permitives.sol
+2. get address and bytes in unit test of primitives
+3. get derault address and bytes in unit test file
+4. the default address is **0x0000000000000000000000000000000000000000**
+
+
 ### Day 109: Solidity
 #### <ins>**Unit test for Primitives smart contract**</ins>
 1. unit tests script for primitives smart contract on local
