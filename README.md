@@ -1,4 +1,17 @@
 # Proof of passion for Blockchain technologies
+### Day 111: Solidity
+#### <ins>**Variables**</ins>
+1. there are 3 types of variables named local, global ans state or contract variables
+2. local variables are those that are declared in a block and only accessible to that block only
+3. state or contract variables are declared on contract level and are available to whole contract
+4. global variables are some special variables that used to store blockchain data
+5. Variables.sol smart contract contains state variables, local variables and uses global variables as well
+6. deploy/03_variables.js script used to deploy Variables.sol smart contract
+7. test/dev/variables.test.js script used to run test cases on Variables.sol but initialy it just verify if the contract deploy unit test.
+
+**yarn test:local**  
+**yarn deply:local**
+
 ### Day 110: Solidity
 #### <ins>**Address and bytes data type**</ins>
 1. added address and bytes data type in Permitives.sol
