@@ -2,9 +2,11 @@ const { assert } = require('chai')
 const { network } = require('hardhat')
 const hre = require('hardhat')
 
+const CONTRACT_NAME = 'Primitives'
+
+
 if (network.name === 'localhost')
-    describe('Testing Primitives smart contract', async () => {
-        const CONTRACT_NAME = 'Primitives'
+    describe(`Testing ${CONTRACT_NAME} smart contract`, async () => {
         let contract
         before(async () => {
             const Contract = await hre.ethers.getContractFactory(CONTRACT_NAME)
