@@ -38,7 +38,6 @@ if (network.name === 'localhost')
 
             }
             const value = await contract.getCount()
-            console.log(value);
             assert(String(value) === '0', 'Count value must not be negative')
         })
 
