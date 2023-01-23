@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 112: Solidity
+#### <ins>**Unit tests for Variables.sol**</ins>
+1. Get variables of smart contract in unit tests
+2. Get variable values set by global variables of blockchain
+3. On Hardhat local verify if the owner is set correctly
+4. Validate blocktime is a timestamp and it must be positive number
+
+
 ### Day 111: Solidity
 #### <ins>**Variables**</ins>
 1. there are 3 types of variables named local, global ans state or contract variables
