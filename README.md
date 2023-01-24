@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 114: Solidity
+#### <ins>**Immutables**</ins>
+1. immutables are just like constants but they can be initialized in constructor
+2. **i_** prefix is used to identify immutables
+3. contracts/Immutables.sol contract added
+4. deploy/05_immutables.js to deploy Immutables.sol contract
+5. test/dev/immutables.test.js for unit test of Immutables.sol
+6. run **yarn test:local**
+7. run **yarn deplou:local**
+
 ### Day 113: Solidity
 #### <ins>**Constants**</ins>
 1. Constants take fixed storage in smart contracts and they are cheaper
