@@ -1,4 +1,22 @@
 # Proof of passion for Blockchain technologies
+### Day 113: Solidity
+#### <ins>**Constants**</ins>
+1. Constants take fixed storage in smart contracts and they are cheaper
+2  contracts/Constants.sol included in repo
+3. deploy/05_constants.js script written to deploy Constants.sol 
+4. test/dev/constants.test.js script written to test Constants.sol on local
+5. run **yarn test:local**
+6. run **yarn deploy:local**
+  
+  
+### Day 112: Solidity
+#### <ins>**Unit tests for Variables.sol**</ins>
+1. Get variables of smart contract in unit tests
+2. Get variable values set by global variables of blockchain
+3. On Hardhat local verify if the owner is set correctly
+4. Validate blocktime is a timestamp and it must be positive number
+
+
 ### Day 111: Solidity
 #### <ins>**Variables**</ins>
 1. there are 3 types of variables named local, global ans state or contract variables
