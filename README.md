@@ -1,4 +1,15 @@
 # Proof of passion for Blockchain technologies
+### Day 115: Solidity
+#### <ins>**Reading and writing to a state variable**</ins>
+1. When a state or contract level variable is declared as public a get function is already build for it implicitly
+2. To update the contract level storage/variable a setter function is required to update the value
+3. contracts/SimpleStorage.sol has one state variable and its setter and getter function
+4. deploy/06_simple_storage.js is written to deploy contract by hardhat-deploy
+5. test/dev/simple_storage.test.js is written to test setter and getter functions of SimpleStorage.sol
+6. run **yarn test:local**
+7. run **yarn deploy:local**  
+
+
 ### Day 114: Solidity
 #### <ins>**Immutables**</ins>
 1. immutables are just like constants but they can be initialized in constructor
