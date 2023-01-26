@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 116: Solidity
+#### <ins>**Wei and Ether**</ins>
+1. in solidity 1 wei is equal to 1
+2. whereas 1 ether is equal to 1e18 in both solidity and js
+3. contract/EtherUnits.sol smart contract uses **wei** and **ether** key words to explicitly define values for uint
+4. deploy/07_ether_units.js script to deploy EtherUnits.sol contract using hardhat-deploy package
+5. test/dev/ether_units.test.js script is writen for unit testing of EtherUnits.sol by accessing both units and comparing them in js
+6. run **yarn test:local**
+7. run **yarn deploy:local**  
+
 ### Day 115: Solidity
 #### <ins>**Reading and writing to a state variable**</ins>
 1. When a state or contract level variable is declared as public a get function is already build for it implicitly
