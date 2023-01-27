@@ -1,4 +1,22 @@
 # Proof of passion for Blockchain technologies
+### Day 117: Solidity
+#### <ins>**Gas**</ins>
+1. Gas is the amout of ethers willing to pay for a transaction
+2. There are three things to consider mainly
+  1. gas which is the unit for compuational cost of every computation
+  2. gas spent is the total number of computational units used for a transaction
+  3. gas price is the amount of ethers for per unit computation(gas)
+3. There are two uppar bounds for gas
+  1. gas limit: the max amount of gas user willing to pay for a transaction
+  2. block gas limit: the max limit of a gas used in a block and it is set by the network
+4. contracts/Gas.sol smart contract has one state variable and a function with infinite loop
+5. deploy/08_gas.js script is written to deploy contract
+6. test/dev/gas.test.js script tests two things
+  1. get state variable value which is 0 initially
+  2. cal infinite loop and wait till the gas ran out and transaction reverted
+  3. after the transaction is reverted the state variable should be still 0
+
+
 ### Day 116: Solidity
 #### <ins>**Wei and Ether**</ins>
 1. in solidity 1 wei is equal to 1
