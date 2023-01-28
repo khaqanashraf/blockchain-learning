@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 118: Solidity
+#### <ins>**If/Else**</ins>
+1. Like in any other language Solidity also has conditional control structures
+2. contracs/IfElse.sol contains two functions one is written to tell if the number is even or odd and the other is to determine the grade by percentage
+3. deploy/09_ifelse.js script is to deploy the contract
+4. test/dev/ifelse.test.js script do the unit tests of the contract
+5. run **yarn test:local**
+6. run **yarn deploy:local**
+
+
 ### Day 117: Solidity
 #### <ins>**Gas**</ins>
 1. Gas is the amout of ethers willing to pay for a transaction
