@@ -1,4 +1,15 @@
 # Proof of passion for Blockchain technologies
+### Day 119: Solidity
+#### <ins>**Discriminant**</ins>
+1. contracts/Discriminant.sol is the smart contract to find the nature of roots of a quadratic equation using discriminant
+2. in quadratic formula the portion of the equation called discriminant tell about the nature of roots of a quadratice equation such that,
+3. the roots are real and equal if the discriminant is equal to 0
+4. the roots are real and unequal if the discriminant is positive number
+5. the roots are imaginary and unequal if the discriminant is negative
+6. deploy/10_discriminant.js script deploy the contract
+7. test/dev/discriminant.test.js script test the discriminant smart contract
+
+
 ### Day 118: Solidity
 #### <ins>**If/Else**</ins>
 1. Like in any other language Solidity also has conditional control structures
