@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 120: Solidity
+#### <ins>**Quadrant of a point**</ins>
+1. contracts/Quadrants.sol find the quadrant of a point in 2d grid system
+2. deploy/11_quadrants.js deploy Quadrants.sol smart contract
+3. test/dev/quadrants.test.js script test if the smart contract find the quadrant of a point correctly
+4. run **yarn test:local**
+5. run **yarn deploy:local**
+
+
 ### Day 119: Solidity
 #### <ins>**Discriminant**</ins>
 1. contracts/Discriminant.sol is the smart contract to find the nature of roots of a quadratic equation using discriminant
