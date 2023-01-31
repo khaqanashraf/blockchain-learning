@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 121: Solidity
+#### <ins>**Loops**</ins>
+1. While and for loops in contracts/Loops.sol smart contract
+2. deploy/12_loops.js script is to deploy this contract
+3. test/dev/loops.test.js script to test for and while loop 
+4. run **yarn test:local**
+5. run **yarn deploy:local**
+
 ### Day 120: Solidity
 #### <ins>**Quadrant of a point**</ins>
 1. contracts/Quadrants.sol find the quadrant of a point in 2d grid system
