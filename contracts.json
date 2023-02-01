@@ -1,67 +1,72 @@
 {
     "HelloWorld": {
         "localhost": {
-            "address": "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82"
+            "address": "0xCace1b78160AE76398F486c8a18044da0d66d86D"
         }
     },
     "Counter": {
         "localhost": {
-            "address": "0x9A676e781A523b5d0C0e43731313A708CB607508"
+            "address": "0xD5ac451B0c50B9476107823Af206eD814a2e2580"
         }
     },
     "Primitives": {
         "localhost": {
-            "address": "0x0B306BF915C4d645ff596e518fAf3F9669b97016"
+            "address": "0xF8e31cb472bc70500f08Cd84917E5A1912Ec8397"
         }
     },
     "Variables": {
         "localhost": {
-            "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1"
+            "address": "0xc0F115A19107322cFBf1cDBC7ea011C19EbDB4F8"
         }
     },
     "Constants": {
         "localhost": {
-            "address": "0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE"
+            "address": "0xc96304e3c037f81dA488ed9dEa1D8F2a48278a75"
         }
     },
     "Immutables": {
         "localhost": {
-            "address": "0x68B1D87F95878fE05B998F19b66F4baba5De1aed"
+            "address": "0x34B40BA116d5Dec75548a9e9A8f15411461E8c70"
         }
     },
     "SimpleStorage": {
         "localhost": {
-            "address": "0x3Aa5ebB10DC797CAC828524e59A333d0A371443c"
+            "address": "0xD0141E899a65C95a556fE2B27e5982A6DE7fDD7A"
         }
     },
     "EtherUnits": {
         "localhost": {
-            "address": "0xc6e7DF5E7b4f2A278906862b61205850344D4e7d"
+            "address": "0x07882Ae1ecB7429a84f1D53048d35c4bB2056877"
         }
     },
     "Gas": {
         "localhost": {
-            "address": "0x59b670e9fA9D0A427751Af201D676719a970857b"
+            "address": "0x22753E4264FDDc6181dc7cce468904A80a363E44"
         }
     },
     "IfElse": {
         "localhost": {
-            "address": "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1"
+            "address": "0xA7c59f010700930003b33aB25a7a0679C860f29c"
         }
     },
     "Discriminant": {
         "localhost": {
-            "address": "0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44"
+            "address": "0xfaAddC93baf78e89DCf37bA67943E1bE8F37Bb8c"
         }
     },
     "Quadrants": {
         "localhost": {
-            "address": "0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f"
+            "address": "0x276C216D241856199A83bf27b2286659e5b877D3"
         }
     },
     "Loops": {
         "localhost": {
-            "address": "0x4A679253410272dd5232B3Ff7cF5dbB88f295319"
+            "address": "0x3347B4d90ebe72BeFb30444C9966B2B990aE9FcB"
+        }
+    },
+    "PrimeNumbers": {
+        "localhost": {
+            "address": "0x3155755b79aA083bd953911C92705B7aA82a18F9"
         }
     }
 }
