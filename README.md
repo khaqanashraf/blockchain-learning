@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 123: Solidity
+#### <ins>**GCD/HCF**</ins>
+1. contracts/GCD.sol finds the greatest common devisor of two numbers
+2. deploy/14_gcd.js script is to deploy this contract
+3. test/dev/gcd.test.js script to test the contract
+4. run **yarn test:local**
+5. run **yarn deploy:local**
+
+
 ### Day 122: Solidity
 #### <ins>**Prime numbers**</ins>
 1. contracts/PrimeNumbers.sol smart contract finds if the given number is a factor of another number and either if the given number is prime or not
