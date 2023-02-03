@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 124: Solidity
+#### <ins>**LCM**</ins>
+1. contracts/LCM.sol finds the lcm of two numbers
+2. deploy/15_lcm.js script is to deploy this contract
+3. test/dev/lcm.test.js script to test the contract
+4. run **yarn test:local**
+5. run **yarn deploy:local**
+
+
 ### Day 123: Solidity
 #### <ins>**GCD/HCF**</ins>
 1. contracts/GCD.sol finds the greatest common devisor of two numbers
