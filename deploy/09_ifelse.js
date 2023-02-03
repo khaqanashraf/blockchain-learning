@@ -3,7 +3,7 @@ const hre = require('hardhat')
 const { updateContractDeployedAddress } = require('../utils/global')
 
 const CONTRACT_NAME = 'IfElse'
-module.exports = async () =>{
+module.exports = async () => {
     const Contract = await hre.ethers.getContractFactory(CONTRACT_NAME)
     const contract = await Contract.deploy()
 

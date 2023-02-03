@@ -20,14 +20,14 @@ if (network.name === 'localhost')
             const oneWei = Number(await contract.i_oneWei());
             const isOneWei = Boolean(await contract.i_isOneWei());
 
-            assert(oneWei && oneWei===1 && isOneWei, '1 wei is not equal to 1 in js')
+            assert(oneWei && oneWei === 1 && isOneWei, '1 wei is not equal to 1 in js')
         })
 
         it('Should get one ether and it must be equal to 1e18', async () => {
             const oneEther = Number(await contract.i_oneEther());
             const isOneEther = Boolean(await contract.i_isOneEther());
 
-            assert(oneEther && oneEther===1e18 && isOneEther, '1 ether is not equal to 1e18 in js')
+            assert(oneEther && oneEther === 1e18 && isOneEther, '1 ether is not equal to 1e18 in js')
         })
 
     })

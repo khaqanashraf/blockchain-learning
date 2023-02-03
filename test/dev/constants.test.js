@@ -19,8 +19,8 @@ if (network.name === 'localhost')
         it('Should get address and code', async () => {
             const address = String(await contract.CONTRACT_ADDRESS())
             const code = Number(await contract.CODE())
-            
-            assert(address==='0x7bb1Dff3cFa2c96034574D43396Cf6F0dAb506c8' && code===1234, 'Could not get address and code')
+
+            assert(address === '0x7bb1Dff3cFa2c96034574D43396Cf6F0dAb506c8' && code === 1234, 'Could not get address and code')
         })
 
     })

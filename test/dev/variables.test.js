@@ -26,8 +26,8 @@ if (network.name === 'localhost')
             const blockTime = Number(await contract.s_blockTime());
             const signers = await hre.ethers.getSigners()
             const deployer = signers[0].address
-            
-            assert(owner===deployer && blockTime>0, 'Could net get values set by Global variables')
+
+            assert(owner === deployer && blockTime > 0, 'Could net get values set by Global variables')
         })
 
     })

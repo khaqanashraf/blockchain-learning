@@ -2,7 +2,6 @@
 pragma solidity ^0.8.17;
 
 contract Gas {
-
     /**
      * Declare a state variable
      */
@@ -16,11 +15,11 @@ contract Gas {
         s_num = 0;
     }
 
-    function getNum() public view returns(uint){
+    function getNum() public view returns (uint) {
         return s_num;
     }
 
-    function setNum(uint _num) public{
+    function setNum(uint _num) public {
         s_num = _num;
     }
 

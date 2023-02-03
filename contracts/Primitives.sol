@@ -1,4 +1,3 @@
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
@@ -8,15 +7,14 @@ contract Primitives {
      * range of int8: (-2^7)-1 to 2^7 => -127 to 128 => total of 256 numbers
      * range of int : (-2^255)-1 to 2^255
      * range of uint8: 0 to (2**8)-1 => 0 to 255 => total of 256
-     * range of uint: 0 to (2**256)-1 
+     * range of uint: 0 to (2**256)-1
      * only 1 bit is allocated for bool data type
      */
-    int8 public smallInt=-1;
-    int256 public num=500;
-    uint8 public smallUInt=6;
-    uint public uInt=800;
-    bool public flag=false;
-    
+    int8 public smallInt = -1;
+    int256 public num = 500;
+    uint8 public smallUInt = 6;
+    uint public uInt = 800;
+    bool public flag = false;
 
     bool public defaultBool;
     int8 public defaultSmallInt;

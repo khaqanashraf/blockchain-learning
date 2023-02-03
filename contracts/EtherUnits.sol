@@ -16,7 +16,7 @@ contract EtherUnits {
     constructor() {
         i_oneWei = 1 wei;
         i_oneEther = 1 ether;
-        i_isOneWei = (1 wei== 1);
-        i_isOneEther = (1 ether== 1e18);
+        i_isOneWei = (1 wei == 1);
+        i_isOneEther = (1 ether == 1e18);
     }
 }

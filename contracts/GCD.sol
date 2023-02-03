@@ -7,7 +7,7 @@ contract GCD {
     function isFactor(uint a, uint b) public pure returns (bool) {
         return b % a == 0;
     }
-    
+
     function findGcd(uint a, uint b) public pure returns (uint) {
         uint smaller = a;
         if (b < a) {

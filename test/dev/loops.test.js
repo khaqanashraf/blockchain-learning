@@ -21,7 +21,7 @@ if (network.name === 'localhost')
             await contract.whileLoop()
             const counterAfter = Number(await contract.s_counter())
 
-            assert(counterBefore===1 && counterAfter==10, 'While loop not iterate 9 times')
+            assert(counterBefore === 1 && counterAfter == 10, 'While loop not iterate 9 times')
         })
 
         it('Should run for loop 10 iterations', async () => {
@@ -29,7 +29,7 @@ if (network.name === 'localhost')
             await contract.forLoop()
             const counterAfter = Number(await contract.s_counter())
 
-            assert(counterBefore===10 && counterAfter==20, 'For loop not iterate 10 times')
+            assert(counterBefore === 10 && counterAfter == 20, 'For loop not iterate 10 times')
         })
 
     })

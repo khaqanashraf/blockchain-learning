@@ -5,7 +5,7 @@ contract Variables {
     /**
      * State variables
      */
-    string public s_message = 'Hello World!';
+    string public s_message = "Hello World!";
     uint public s_num = 123;
     address public s_owner;
     uint public s_blockTime;

@@ -40,7 +40,7 @@ if (network.name === 'localhost')
             const isPrime = Boolean(await contract.isPrime(13))
             assert(isPrime, 'Could not tell the truth that 13 is a prime numner')
         })
-        
+
         it('Should tell that 18 is not a prime number', async () => {
             const isPrime = Boolean(await contract.isPrime(18))
             assert(!isPrime, 'Could not tell the truth that 18 is a prime numner')

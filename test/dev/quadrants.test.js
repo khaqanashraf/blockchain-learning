@@ -20,35 +20,35 @@ if (network.name === 'localhost')
             const x = 1, y = 2;
             const quadrant = Number(await contract.findQuadrant(x, y))
 
-            assert(quadrant===0, 'Could not find point in first quadrant')
+            assert(quadrant === 0, 'Could not find point in first quadrant')
         })
 
         it('Should find a point in second quadrant', async () => {
             const x = -1, y = 2;
             const quadrant = Number(await contract.findQuadrant(x, y))
 
-            assert(quadrant===1, 'Could not find point in second quadrant')
+            assert(quadrant === 1, 'Could not find point in second quadrant')
         })
 
         it('Should find a point in third quadrant', async () => {
             const x = -1, y = -2;
             const quadrant = Number(await contract.findQuadrant(x, y))
 
-            assert(quadrant===2, 'Could not find point in third quadrant')
+            assert(quadrant === 2, 'Could not find point in third quadrant')
         })
 
         it('Should find a point in fourth quadrant', async () => {
             const x = 1, y = -2;
             const quadrant = Number(await contract.findQuadrant(x, y))
 
-            assert(quadrant===3, 'Could not find point in fourth quadrant')
+            assert(quadrant === 3, 'Could not find point in fourth quadrant')
         })
 
         it('Should not find point in first quadrant', async () => {
             const x = 1, y = -2;
             const quadrant = Number(await contract.findQuadrant(x, y))
 
-            assert(quadrant!==0, 'Wrongly find point in first quadrant')
+            assert(quadrant !== 0, 'Wrongly find point in first quadrant')
         })
 
     })
