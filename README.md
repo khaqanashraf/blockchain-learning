@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 125: Solidity
+#### <ins>**Factorial**</ins>
+1. contracts/Factorial.sol calculate factorial of a number using for loop
+2. deploy/16_factorial.js script is to deploy this contract
+3. test/dev/factorial.test.js script to test the contract
+4. run **yarn test:local**
+5. run **yarn deploy:local**
+
 ### Day 124: Solidity
 #### <ins>**LCM**</ins>
 1. contracts/LCM.sol finds the lcm of two numbers
