@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 126: Solidity
+#### <ins>**Perfect Number**</ins>
+1. A perfect number is a positive integer number whose sum of all positive devisors is equal to that number.
+2. contracts/PerfectNumber.sol find out if the given number is perfect or not.
+3. deploy/16_factorial.js script is to deploy this contract
+4. test/dev/factorial.test.js script to test the contract
+5. run **yarn test:local**
+6. run **yarn deploy:local**
+
+
 ### Day 125: Solidity
 #### <ins>**Factorial**</ins>
 1. contracts/Factorial.sol calculate factorial of a number using for loop
