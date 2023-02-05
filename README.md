@@ -3,8 +3,8 @@
 #### <ins>**Perfect Number**</ins>
 1. A perfect number is a positive integer number whose sum of all positive devisors is equal to that number.
 2. contracts/PerfectNumber.sol find out if the given number is perfect or not.
-3. deploy/16_factorial.js script is to deploy this contract
-4. test/dev/factorial.test.js script to test the contract
+3. deploy/17_perfect_number.js script is to deploy this contract
+4. test/dev/perfect_number.test.js script to test the contract
 5. run **yarn test:local**
 6. run **yarn deploy:local**
 
