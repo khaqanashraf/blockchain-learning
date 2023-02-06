@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 127: Solidity
+#### <ins>**Armstrong Number**</ins>
+1. An armstrong number is the number whos sum of each digit raise to power total number of digits is equal to the orignal number.
+2. contracts/ArmstrongNumber.sol is the smart contract that determines if the given number is armstrong or not
+3. deploy/18_armstrong_number.js script is to deploy this contract
+4. test/dev/armstrong_number.test.js script to test the contract
+5. run **yarn test:local**
+6. run **yarn deploy:local**
+
 ### Day 126: Solidity
 #### <ins>**Perfect Number**</ins>
 1. A perfect number is a positive integer number whose sum of all positive devisors is equal to that number.
