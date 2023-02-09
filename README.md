@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 130: Solidity
+#### <ins>**Array**</ins>
+1. contracts/Array.sol smart contract contains array data structure
+2. deploy/21_array.js script deploy the contract
+3. test/dev/array.test.js run basic unit testing
+4. run **yarn test:local**
+5. run **yarn deploy:local**
+
+
 ### Day 129: Solidity
 #### <ins>**Nested Mapping**</ins>
 1. Mapping inside a mapping is written, deployed and tested
