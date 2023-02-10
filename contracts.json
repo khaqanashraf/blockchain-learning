@@ -1,112 +1,117 @@
 {
     "HelloWorld": {
         "localhost": {
-            "address": "0x3aAde2dCD2Df6a8cAc689EE797591b2913658659"
+            "address": "0xd8A9159c111D0597AD1b475b8d7e5A217a1d1d05"
         }
     },
     "Counter": {
         "localhost": {
-            "address": "0xab16A69A5a8c12C732e0DEFF4BE56A70bb64c926"
+            "address": "0xCdb63c58b907e76872474A0597C5252eDC97c883"
         }
     },
     "Primitives": {
         "localhost": {
-            "address": "0xE3011A37A904aB90C8881a99BD1F6E21401f1522"
+            "address": "0x15BB2cc3Ea43ab2658F7AaecEb78A9d3769BE3cb"
         }
     },
     "Variables": {
         "localhost": {
-            "address": "0x1f10F3Ba7ACB61b2F50B9d6DdCf91a6f787C0E82"
+            "address": "0xa4d0806d597146df93796A38435ABB2a3cb96677"
         }
     },
     "Constants": {
         "localhost": {
-            "address": "0x457cCf29090fe5A24c19c1bc95F492168C0EaFdb"
+            "address": "0xAE246E208ea35B3F23dE72b697D47044FC594D5F"
         }
     },
     "Immutables": {
         "localhost": {
-            "address": "0x525C7063E7C20997BaaE9bDa922159152D0e8417"
+            "address": "0x82BBAA3B0982D88741B275aE1752DB85CAfe3c65"
         }
     },
     "SimpleStorage": {
         "localhost": {
-            "address": "0x38a024C0b412B9d1db8BC398140D00F5Af3093D4"
+            "address": "0x084815D1330eCC3eF94193a19Ec222C0C73dFf2d"
         }
     },
     "EtherUnits": {
         "localhost": {
-            "address": "0x5fc748f1FEb28d7b76fa1c6B07D8ba2d5535177c"
+            "address": "0x76a999d5F7EFDE0a300e710e6f52Fb0A4b61aD58"
         }
     },
     "Gas": {
         "localhost": {
-            "address": "0xB82008565FdC7e44609fA118A4a681E92581e680"
+            "address": "0x02e8910B3B89690d4aeC9fcC0Ae2cD16fB6A4828"
         }
     },
     "IfElse": {
         "localhost": {
-            "address": "0x2a810409872AfC346F9B5b26571Fd6eC42EA4849"
+            "address": "0x564Db7a11653228164FD03BcA60465270E67b3d7"
         }
     },
     "Discriminant": {
         "localhost": {
-            "address": "0xb9bEECD1A582768711dE1EE7B0A1d582D9d72a6C"
+            "address": "0x9abb5861e3a1eDF19C51F8Ac74A81782e94F8FdC"
         }
     },
     "Quadrants": {
         "localhost": {
-            "address": "0x8A93d247134d91e0de6f96547cB0204e5BE8e5D8"
+            "address": "0x484242986F57dFcA98EeC2C78427931C63F1C4ce"
         }
     },
     "Loops": {
         "localhost": {
-            "address": "0x40918Ba7f132E0aCba2CE4de4c4baF9BD2D7D849"
+            "address": "0x9DBb24B10502aD166c198Dbeb5AB54d2d13AfcFd"
         }
     },
     "PrimeNumbers": {
         "localhost": {
-            "address": "0xF32D39ff9f6Aa7a7A64d7a4F00a54826Ef791a55"
+            "address": "0xF8b299F87EBb62E0b625eAF440B73Cc6b7717dbd"
         }
     },
     "GCD": {
         "localhost": {
-            "address": "0xd6e1afe5cA8D00A2EFC01B89997abE2De47fdfAf"
+            "address": "0xEb0fCBB68Ca7Ba175Dc1D3dABFD618e7a3F582F6"
         }
     },
     "LCM": {
         "localhost": {
-            "address": "0x99dBE4AEa58E518C50a1c04aE9b48C9F6354612f"
+            "address": "0xaE2abbDE6c9829141675fA0A629a675badbb0d9F"
         }
     },
     "Factorial": {
         "localhost": {
-            "address": "0x6F6f570F45833E249e27022648a26F4076F48f78"
+            "address": "0x8B342f4Ddcc71Af65e4D2dA9CD00cc0E945cFD12"
         }
     },
     "PerfectNumber": {
         "localhost": {
-            "address": "0xCA8c8688914e0F7096c920146cd0Ad85cD7Ae8b9"
+            "address": "0xE2307e3710d108ceC7a4722a020a050681c835b3"
         }
     },
     "ArmstrongNumber": {
         "localhost": {
-            "address": "0xB0f05d25e41FbC2b52013099ED9616f1206Ae21B"
+            "address": "0xD28F3246f047Efd4059B24FA1fa587eD9fa3e77F"
         }
     },
     "Mapping": {
         "localhost": {
-            "address": "0x5FeaeBfB4439F3516c74939A9D04e95AFE82C4ae"
+            "address": "0x15F2ea83eB97ede71d84Bd04fFF29444f6b7cd52"
         }
     },
     "NestedMapping": {
         "localhost": {
-            "address": "0x976fcd02f7C4773dd89C309fBF55D5923B4c98a1"
+            "address": "0x0B32a3F8f5b7E5d315b9E52E640a49A89d89c820"
         }
     },
     "Array": {
         "localhost": {
-            "address": "0x19cEcCd6942ad38562Ee10bAfd44776ceB67e923"
+            "address": "0xF357118EBd576f3C812c7875B1A1651a7f140E9C"
+        }
+    },
+    "ArrayElementRemove": {
+        "localhost": {
+            "address": "0x519b05b3655F4b89731B677d64CEcf761f4076f6"
         }
     }
 }
