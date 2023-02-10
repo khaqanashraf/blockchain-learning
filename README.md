@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 131: Solidity
+#### <ins>**Array Remove elements**</ins>
+1. Remove an element of an array by shifting or swapping method
+2. contracts/ArrayRemoveElement.sol smart contract contains methods for removing elements from array
+3. deploy/22_array_remove_element.js script deploy the contract
+4. test/dev/array_remove_element.test.js run basic unit testing
+5. run **yarn test:local**
+6. run **yarn deploy:local**
+
+
 ### Day 130: Solidity
 #### <ins>**Array**</ins>
 1. contracts/Array.sol smart contract contains array data structure
