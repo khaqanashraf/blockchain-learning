@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 132: Solidity
+#### <ins>**Bubble sort**</ins>
+1. Sort array in ASC and DESC order using Bubble sort algorithm
+2. contracts/BubbleSort.sol smart contract has functions to sort array in asc or desc order using bubble sort algorithm
+3. deploy/23_bubble_sort.js script deploy the contract
+4. test/dev/bubble_sort.test.js run basic unit testing
+5. run **yarn test:local**
+6. run **yarn deploy:local**
+
 ### Day 131: Solidity
 #### <ins>**Array Remove elements**</ins>
 1. Remove an element of an array by shifting or swapping method
