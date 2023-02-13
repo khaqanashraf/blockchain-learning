@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 134: Solidity
+#### <ins>**Selection sort**</ins>
+1. Sort array in ASC and DESC order using Selection sort algorithm
+2. contracts/SelectionSort.sol smart contract has functions to sort array in asc or desc order using selection sort algorithm
+3. deploy/25_selection_sort.js script deploy the contract
+4. test/dev/selection_sort.test.js run basic unit testing
+5. run **yarn test:local**
+6. run **yarn deploy:local**
+
+
 ### Day 133: Solidity
 #### <ins>**Insertion sort**</ins>
 1. Sort array in ASC and DESC order using Insertion sort algorithm
