@@ -1,158 +1,137 @@
 {
     "HelloWorld": {
         "localhost": {
-            "address": "0x1a77e3cF48eCb31Af9645b3b82e99B1c6326d6bb",
-            "args": []
+            "address": "0x38A70c040CA5F5439ad52d0e821063b0EC0B52b6"
         }
     },
     "Counter": {
         "localhost": {
-            "address": "0x407DD50f9c614f773E62f6c4041418186ad4b2a9",
-            "args": []
+            "address": "0x54B8d8E2455946f2A5B8982283f2359812e815ce"
         }
     },
     "Primitives": {
         "localhost": {
-            "address": "0x5d67Aa374909D7Fadf88389ba4f635469f1c12BF",
-            "args": []
+            "address": "0xf090f16dEc8b6D24082Edd25B1C8D26f2bC86128"
         }
     },
     "Variables": {
         "localhost": {
-            "address": "0x8e86cDD6b5252b45305106071db047563F00e0a8",
-            "args": []
+            "address": "0xd9140951d8aE6E5F625a02F5908535e16e3af964"
         }
     },
     "Constants": {
         "localhost": {
-            "address": "0xF6733AB90988c457a5Ac360D7f8dfB9E24aA108F",
-            "args": []
+            "address": "0x56D13Eb21a625EdA8438F55DF2C31dC3632034f5"
         }
     },
     "Immutables": {
         "localhost": {
-            "address": "0x455DE73b2Ddf008E53b4D274A0F0b065bB3C7023",
-            "args": []
+            "address": "0xE8addD62feD354203d079926a8e563BC1A7FE81e"
         }
     },
     "SimpleStorage": {
         "localhost": {
-            "address": "0x387534CcCc6073c98aB343B6D261ef9598e659AB",
-            "args": []
+            "address": "0xe039608E695D21aB11675EBBA00261A0e750526c"
         }
     },
     "EtherUnits": {
         "localhost": {
-            "address": "0xA07d7e04b13f71e8E8a094B2477c405f255F750e",
-            "args": []
+            "address": "0x071586BA1b380B00B793Cc336fe01106B0BFbE6D"
         }
     },
     "Gas": {
         "localhost": {
-            "address": "0x76F1BB25627d47c30A5a6fCb62B2Af4ff97b4702",
-            "args": []
+            "address": "0xe70f935c32dA4dB13e7876795f1e175465e6458e"
         }
     },
     "IfElse": {
         "localhost": {
-            "address": "0x6D02ABC5fa967B0b085083F5Cf36c24502447244",
-            "args": []
+            "address": "0x3C15538ED063e688c8DF3d571Cb7a0062d2fB18D"
         }
     },
     "Discriminant": {
         "localhost": {
-            "address": "0x97fAFd95bc0A332aA6123A8f8f369dfc492ff1D0",
-            "args": []
+            "address": "0xccf1769D8713099172642EB55DDFFC0c5A444FE9"
         }
     },
     "Quadrants": {
         "localhost": {
-            "address": "0x9Be48cB9Eb443E850316DD09cdF1c2E150b09245",
-            "args": []
+            "address": "0x3904b8f5b0F49cD206b7d5AABeE5D1F37eE15D8d"
         }
     },
     "Loops": {
         "localhost": {
-            "address": "0x5244E221ab9A63aB5471dA1B6BFdC00F72f0eA74",
-            "args": []
+            "address": "0x2Dd78Fd9B8F40659Af32eF98555B8b31bC97A351"
         }
     },
     "PrimeNumbers": {
         "localhost": {
-            "address": "0x2fe9Dfa9FaF3Ebcc293Df4832BCAd687999CD63E",
-            "args": []
+            "address": "0x56fC17a65ccFEC6B7ad0aDe9BD9416CB365B9BE8"
         }
     },
     "GCD": {
         "localhost": {
-            "address": "0x78F7ddBB09D77f08b8E6a3Df94E79fe606966d82",
-            "args": []
+            "address": "0x2625760C4A8e8101801D3a48eE64B2bEA42f1E96"
         }
     },
     "LCM": {
         "localhost": {
-            "address": "0xC0939333007bD49D9f454dc81B4429740A74E475",
-            "args": []
+            "address": "0xFE5f411481565fbF70D8D33D992C78196E014b90"
         }
     },
     "Factorial": {
         "localhost": {
-            "address": "0x7Ab5ae9512284fcdE1eB550BE8f9854B4E425702",
-            "args": []
+            "address": "0xD6b040736e948621c5b6E0a494473c47a6113eA8"
         }
     },
     "PerfectNumber": {
         "localhost": {
-            "address": "0x34688c002Af519fbEf122b43B6099802A12AbE82",
-            "args": []
+            "address": "0x139e1D41943ee15dDe4DF876f9d0E7F85e26660A"
         }
     },
     "ArmstrongNumber": {
         "localhost": {
-            "address": "0x58B3E7BA79FeFf7Fa7dd9d15f861FF19eDa98D8C",
-            "args": []
+            "address": "0xAdE429ba898c34722e722415D722A70a297cE3a2"
         }
     },
     "Mapping": {
         "localhost": {
-            "address": "0x086ce0Da44C88Dac96cF0Dc4c5b2237eACca2E71",
-            "args": []
+            "address": "0x7B4f352Cd40114f12e82fC675b5BA8C7582FC513"
         }
     },
     "NestedMapping": {
         "localhost": {
-            "address": "0x998D98e9480A8f52A5252Faf316d129765773294",
-            "args": []
+            "address": "0xcE0066b1008237625dDDBE4a751827de037E53D2"
         }
     },
     "Array": {
         "localhost": {
-            "address": "0xa00F03Ea2d0a6e4961CaAFcA61A78334049c1848",
-            "args": []
+            "address": "0x82EdA215Fa92B45a3a76837C65Ab862b6C7564a8"
         }
     },
     "ArrayElementRemove": {
         "localhost": {
-            "address": "0x884086466e192C53BbeebEd0024B66d58C49930A",
-            "args": []
+            "address": "0x87006e75a5B6bE9D1bbF61AC8Cd84f05D9140589"
         }
     },
     "BubbleSort": {
         "localhost": {
-            "address": "0x0B36Ef2cb78859C20c8C1380CeAdB75043aA92b3",
-            "args": []
+            "address": "0x51C65cd0Cdb1A8A8b79dfc2eE965B1bA0bb8fc89"
         }
     },
     "InsertionSort": {
         "localhost": {
-            "address": "0xb6aD2903fAC2db628624DeE61e217F50Ad54638E",
-            "args": []
+            "address": "0x8fC8CFB7f7362E44E472c690A6e025B80E406458"
         }
     },
     "SelectionSort": {
         "localhost": {
-            "address": "0x6E66c9E7259EB988b86E6Aa7B0e213957c93bc6c",
-            "args": []
+            "address": "0xC7143d5bA86553C06f5730c8dC9f8187a621A8D4"
+        }
+    },
+    "Enum": {
+        "localhost": {
+            "address": "0x359570B3a0437805D0a71457D61AD26a28cAC9A2"
         }
     }
 }
