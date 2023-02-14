@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 135: Solidity
+#### <ins>**Enums**</ins>
+1. enums in solidity used to maintain states
+2. by default first enum is assigned if not specified that is 0
+3. contracts/Enum.sol smart contract has enum of shipping statuses and functions to update status
+4. deploy/26_enum.js script deploy the contract
+5. test/dev/enum.test.js run basic unit testing
+6. run **yarn test:local**
+7. run **yarn deploy:local**
+
 ### Day 134: Solidity
 #### <ins>**Selection sort**</ins>
 1. Sort array in ASC and DESC order using Selection sort algorithm
