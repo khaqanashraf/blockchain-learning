@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 136: Solidity
+#### <ins>**Struct**</ins>
+1. struct keyword in solidity used to create a non-premitive data type
+2. contracts/PersonStruct.sol smart contract has a Person data type using struct keyword and it has a string and uint
+3. deploy/27_struct.js script deploy the contract
+4. test/dev/struct.test.js run basic unit testing
+5. run **yarn test:local**
+6. run **yarn deploy:local**  
+  
 ### Day 135: Solidity
 #### <ins>**Enums**</ins>
 1. enums in solidity used to maintain states
