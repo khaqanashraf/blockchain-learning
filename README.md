@@ -1,4 +1,15 @@
 # Proof of passion for Blockchain technologies
+### Day 137: Solidity
+#### <ins>**Data locations**</ins>
+1. storage or state variable location of a contract store data on blockchain level
+2. memory data location is initiated when a function is called and remain available during the execution of a function
+3. calldata is used in function params for array, map or struct
+4. contracts/DataLocations.sol smart contract has a state variables, memory and calldata data locations
+5. deploy/28_data_locations.js script deploy the contract
+6. test/dev/data_locations.test.js run basic unit testing
+7. run **yarn test:local**
+8. run **yarn deploy:local**  
+
 ### Day 136: Solidity
 #### <ins>**Struct**</ins>
 1. struct keyword in solidity used to create a non-premitive data type
