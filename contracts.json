@@ -1,170 +1,147 @@
 {
     "HelloWorld": {
         "localhost": {
-            "address": "0xCa1D199b6F53Af7387ac543Af8e8a34455BBe5E0",
-            "args": []
+            "address": "0x084815D1330eCC3eF94193a19Ec222C0C73dFf2d"
         }
     },
     "Counter": {
         "localhost": {
-            "address": "0xdF46e54aAadC1d55198A4a8b4674D7a4c927097A",
-            "args": []
+            "address": "0x76a999d5F7EFDE0a300e710e6f52Fb0A4b61aD58"
         }
     },
     "Primitives": {
         "localhost": {
-            "address": "0xf5c4a909455C00B99A90d93b48736F3196DB5621",
-            "args": []
+            "address": "0x02e8910B3B89690d4aeC9fcC0Ae2cD16fB6A4828"
         }
     },
     "Variables": {
         "localhost": {
-            "address": "0xFD2Cf3b56a73c75A7535fFe44EBABe7723c64719",
-            "args": []
+            "address": "0x564Db7a11653228164FD03BcA60465270E67b3d7"
         }
     },
     "Constants": {
         "localhost": {
-            "address": "0xB22C255250d74B0ADD1bfB936676D2a299BF48Bd",
-            "args": []
+            "address": "0x9abb5861e3a1eDF19C51F8Ac74A81782e94F8FdC"
         }
     },
     "Immutables": {
         "localhost": {
-            "address": "0x666D0c3da3dBc946D5128D06115bb4eed4595580",
-            "args": []
+            "address": "0x484242986F57dFcA98EeC2C78427931C63F1C4ce"
         }
     },
     "SimpleStorage": {
         "localhost": {
-            "address": "0x742489F22807ebB4C36ca6cD95c3e1C044B7B6c8",
-            "args": []
+            "address": "0x9DBb24B10502aD166c198Dbeb5AB54d2d13AfcFd"
         }
     },
     "EtherUnits": {
         "localhost": {
-            "address": "0x1D8D70AD07C8E7E442AD78E4AC0A16f958Eba7F0",
-            "args": []
+            "address": "0xF8b299F87EBb62E0b625eAF440B73Cc6b7717dbd"
         }
     },
     "Gas": {
         "localhost": {
-            "address": "0xA9e6Bfa2BF53dE88FEb19761D9b2eE2e821bF1Bf",
-            "args": []
+            "address": "0xEb0fCBB68Ca7Ba175Dc1D3dABFD618e7a3F582F6"
         }
     },
     "IfElse": {
         "localhost": {
-            "address": "0x1E3b98102e19D3a164d239BdD190913C2F02E756",
-            "args": []
+            "address": "0xaE2abbDE6c9829141675fA0A629a675badbb0d9F"
         }
     },
     "Discriminant": {
         "localhost": {
-            "address": "0x3fdc08D815cc4ED3B7F69Ee246716f2C8bCD6b07",
-            "args": []
+            "address": "0x8B342f4Ddcc71Af65e4D2dA9CD00cc0E945cFD12"
         }
     },
     "Quadrants": {
         "localhost": {
-            "address": "0x286B8DecD5ED79c962b2d8F4346CD97FF0E2C352",
-            "args": []
+            "address": "0xE2307e3710d108ceC7a4722a020a050681c835b3"
         }
     },
     "Loops": {
         "localhost": {
-            "address": "0xb868Cc77A95a65F42611724AF05Aa2d3B6Ec05F2",
-            "args": []
+            "address": "0xD28F3246f047Efd4059B24FA1fa587eD9fa3e77F"
         }
     },
     "PrimeNumbers": {
         "localhost": {
-            "address": "0x70E5370b8981Abc6e14C91F4AcE823954EFC8eA3",
-            "args": []
+            "address": "0x15F2ea83eB97ede71d84Bd04fFF29444f6b7cd52"
         }
     },
     "GCD": {
         "localhost": {
-            "address": "0x4000F8820522AC96C4221b299876e3e53bCc8525",
-            "args": []
+            "address": "0x0B32a3F8f5b7E5d315b9E52E640a49A89d89c820"
         }
     },
     "LCM": {
         "localhost": {
-            "address": "0x9338CA7d556248055f5751d85cDA7aD6eF254433",
-            "args": []
+            "address": "0xF357118EBd576f3C812c7875B1A1651a7f140E9C"
         }
     },
     "Factorial": {
         "localhost": {
-            "address": "0x9c65f85425c619A6cB6D29fF8d57ef696323d188",
-            "args": []
+            "address": "0x519b05b3655F4b89731B677d64CEcf761f4076f6"
         }
     },
     "PerfectNumber": {
         "localhost": {
-            "address": "0x7Cf4be31f546c04787886358b9486ca3d62B9acf",
-            "args": []
+            "address": "0x057cD3082EfED32d5C907801BF3628B27D88fD80"
         }
     },
     "ArmstrongNumber": {
         "localhost": {
-            "address": "0x33E45b187da34826aBCEDA1039231Be46f1b05Af",
-            "args": []
+            "address": "0xb6057e08a11da09a998985874FE2119e98dB3D5D"
         }
     },
     "Mapping": {
         "localhost": {
-            "address": "0x0c626FC4A447b01554518550e30600136864640B",
-            "args": []
+            "address": "0xad203b3144f8c09a20532957174fc0366291643c"
         }
     },
     "NestedMapping": {
         "localhost": {
-            "address": "0xA21DDc1f17dF41589BC6A5209292AED2dF61Cc94",
-            "args": []
+            "address": "0x31403b1e52051883f2Ce1B1b4C89f36034e1221D"
         }
     },
     "Array": {
         "localhost": {
-            "address": "0x2A590C461Db46bca129E8dBe5C3998A8fF402e76",
-            "args": []
+            "address": "0x4278C5d322aB92F1D876Dd7Bd9b44d1748b88af2"
         }
     },
     "ArrayElementRemove": {
         "localhost": {
-            "address": "0x158d291D8b47F056751cfF47d1eEcd19FDF9B6f8",
-            "args": []
+            "address": "0x0D92d35D311E54aB8EEA0394d7E773Fc5144491a"
         }
     },
     "BubbleSort": {
         "localhost": {
-            "address": "0x2F54D1563963fC04770E85AF819c89Dc807f6a06",
-            "args": []
+            "address": "0x24EcC5E6EaA700368B8FAC259d3fBD045f695A08"
         }
     },
     "InsertionSort": {
         "localhost": {
-            "address": "0xF342E904702b1D021F03f519D6D9614916b03f37",
-            "args": []
+            "address": "0x876939152C56362e17D508B9DEA77a3fDF9e4083"
         }
     },
     "SelectionSort": {
         "localhost": {
-            "address": "0x9849832a1d8274aaeDb1112ad9686413461e7101",
-            "args": []
+            "address": "0xD56e6F296352B03C3c3386543185E9B8c2e5Fd0b"
         }
     },
     "Enum": {
         "localhost": {
-            "address": "0xa4E00CB342B36eC9fDc4B50b3d527c3643D4C49e",
-            "args": []
+            "address": "0xEC7cb8C3EBE77BA6d284F13296bb1372A8522c5F"
         }
     },
     "PersonStruct": {
         "localhost": {
-            "address": "0x8ac5eE52F70AE01dB914bE459D8B3d50126fd6aE",
-            "args": []
+            "address": "0x3C2BafebbB0c8c58f39A976e725cD20D611d01e9"
+        }
+    },
+    "DataLocations": {
+        "localhost": {
+            "address": "0x5f246ADDCF057E0f778CD422e20e413be70f9a0c"
         }
     }
 }
