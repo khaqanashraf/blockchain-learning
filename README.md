@@ -1,5 +1,14 @@
 # Proof of passion for Blockchain technologies
 
+### Day 139: Solidity
+#### <ins>**View and Pure functions**</ins>
+1. view modifier functions indicates that the state variables can be read in function but cannot be modified
+2. pure modifier enforce that none of state variable neither can read nor can be updated in function scope
+3. contracts/ViewAndPureFunctions.sol smart contract has a pure and view function
+4. deploy/30_view_and_pure_functions.js script deploy the contract
+5. test/dev/view_and_pure_functions.test.js run basic unit testing
+6. run **yarn test:local**
+7. run **yarn deploy:local**  
 ### Day 138: Solidity
 #### <ins>**Functions**</ins>
 1. functions in solidity may return multiple values. they can either be named or unnamed. also they can be destructured when the function is called
