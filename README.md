@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+
+### Day 138: Solidity
+#### <ins>**Functions**</ins>
+1. functions in solidity may return multiple values. they can either be named or unnamed. also they can be destructured when the function is called
+2. contracts/Functions.sol smart contract has named return types, multiple return values and destructering of return values of a function
+3. deploy/29_functions.js script deploy the contract
+4. test/dev/functions.test.js run basic unit testing
+5. run **yarn test:local**
+6. run **yarn deploy:local**  
+
 ### Day 137: Solidity
 #### <ins>**Data locations**</ins>
 1. storage or state variable location of a contract store data on blockchain level
