@@ -2,6 +2,8 @@
 pragma solidity ^0.8.17;
 
 contract Account {
+    error InsufficientBalance(uint balance, uint withdrawAmount);
+
     uint s_balance;
     uint immutable i_maxUint;
 
@@ -31,6 +33,10 @@ contract Account {
         uint newBalance = s_balance - _amount;
 
         require(newBalance >= 0 && newBalance <= oldBalance, "Bad amount");
+
+        if (_amount > s_balance) {
+            revert InsufficientBalance(s_balance, _amount);
+        }
 
         s_balance = newBalance;
 

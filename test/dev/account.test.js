@@ -37,5 +37,16 @@ if (network.name === 'localhost')
             assert(balance === 7, 'Could not get correct balance after withdraw')
         })
 
+        it('Should not withdraw 10 wei from account', async () => {
+
+            let success = false
+            try {
+                await contract.withdraw(10)
+            } catch (error) {
+                success = true
+            }
+            assert(success, 'Able to withdraw extra amount from account')
+        })
+
 
     })
