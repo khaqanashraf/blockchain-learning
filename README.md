@@ -1,5 +1,14 @@
 # Proof of passion for Blockchain technologies
-
+### Day 140: Solidity
+#### <ins>**Error**</ins>
+1. require is used to validate inputs
+2. revert will revert the complete transaction to go to previous state
+3. assert implies that there is a bug if it is faild
+4. contracts/Account.sol smart contract contains deposite and withdraw functions that uses require, revert, asssert and custom error
+5. deploy/31_account.js script deploy the contract
+6. test/dev/account.test.js run basic unit testing
+7. run **yarn test:local**
+8. run **yarn deploy:local** 
 ### Day 139: Solidity
 #### <ins>**View and Pure functions**</ins>
 1. view modifier functions indicates that the state variables can be read in function but cannot be modified
