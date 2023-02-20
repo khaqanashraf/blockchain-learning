@@ -24,7 +24,7 @@ if (network.name === 'localhost')
         it('Should call run function and it must failed the transaction', async () => {
             let transactionFailed = false
             try {
-                // await contract.run()
+                await contract.run()
 
             } catch (error) {
                 transactionFailed = true
