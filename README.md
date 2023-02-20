@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 141: Solidity
+#### <ins>**Modifiers**</ins>
+1. solidity modifiers used to validate inputs and run through pre conditions before execution of a function
+2. contracts/Modifiers.sol smart contract has 2 modifiers that check if the send is the owner of smart contract and the given address must not be 0
+3. deploy/32_modifiers.js script deploy the contract
+4. test/dev/modifiers.test.js run basic unit testing
+5. run **yarn test:local**
+6. run **yarn deploy:local** 
+
 ### Day 140: Solidity
 #### <ins>**Error**</ins>
 1. require is used to validate inputs
