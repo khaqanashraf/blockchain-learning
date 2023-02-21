@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 142: Solidity
+#### <ins>**Reentracy**</ins>
+1. To prevent reentracy attack a modifier is used to lock and unlock the state
+2. contracts/Reentracy.sol has the modifier that prevents from reentracy of increment
+3. deploy/33_reentracy.js script deploy the contract
+4. test/dev/reentracy.test.js run basic unit testing
+5. run **yarn test:local**
+6. run **yarn deploy:local** 
 ### Day 141: Solidity
 #### <ins>**Modifiers**</ins>
 1. solidity modifiers used to validate inputs and run through pre conditions before execution of a function
