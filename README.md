@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+### Day 143: Solidity
+#### <ins>**Events**</ins>
+1. Events in solidity can be used for logs
+2. contracts/Events.sol has an event Deposite and emit this event on deposite function
+3. deploy/34_events.js deploy this contract
+4. test/events.test.js run basic unit test and get event emitted on deposite
+5. run **yarn test:local**
+6. run **yarn deploy:local** 
+
 ### Day 142: Solidity
 #### <ins>**Reentracy**</ins>
 1. To prevent reentracy attack a modifier is used to lock and unlock the state
