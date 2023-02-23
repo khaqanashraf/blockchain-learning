@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+
+### Day 144: Solidity
+#### <ins>**Constructor Arguments**</ins>
+1. while deploying a contract passing the arguments in the constructor of the contract
+2. contracts/Constructor.sol initialzed with two constructor arguments
+3. deploy/35_constructor.js deploy this contract by giving these two arguments
+4. test/constructor.test.js validate if the variabels are initialized correctly
+5. run **yarn test:local**
+6. run **yarn deploy:local** 
+
 ### Day 143: Solidity
 #### <ins>**Events**</ins>
 1. Events in solidity can be used for logs
