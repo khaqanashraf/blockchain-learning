@@ -1,11 +1,18 @@
 # Proof of passion for Blockchain technologies
 
+### Day 145: Solidity
+#### <ins>**Inheritence**</ins>
+1. To gain the functionality of existing contract we can inherit it into base contract
+2. contracts/Inheritence.sol has three contracts and Cop contract has all the functionality of its parent contracts
+3. deploy/36_inheritence.js deploy Inheritence.sol with constructor arguments
+4. test/dev/inheritence.test.js test the basic unit tests
+
 ### Day 144: Solidity
 #### <ins>**Constructor Arguments**</ins>
 1. while deploying a contract passing the arguments in the constructor of the contract
 2. contracts/Constructor.sol initialzed with two constructor arguments
 3. deploy/35_constructor.js deploy this contract by giving these two arguments
-4. test/constructor.test.js validate if the variabels are initialized correctly
+4. test/dev/constructor.test.js validate if the variabels are initialized correctly
 5. run **yarn test:local**
 6. run **yarn deploy:local** 
 
@@ -14,7 +21,7 @@
 1. Events in solidity can be used for logs
 2. contracts/Events.sol has an event Deposite and emit this event on deposite function
 3. deploy/34_events.js deploy this contract
-4. test/events.test.js run basic unit test and get event emitted on deposite
+4. test/dev/events.test.js run basic unit test and get event emitted on deposite
 5. run **yarn test:local**
 6. run **yarn deploy:local** 
 
