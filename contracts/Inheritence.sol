@@ -104,5 +104,14 @@ contract Shapes {
         s_shapes.push(new Square());
     }
 
-    function getShapeNames() public returns (string[] memory) {}
+    function getShapeNames() public view returns (string[] memory) {
+        uint size = s_shapes.length;
+        string[] memory _names = new string[](size);
+
+        for (uint i = 0; i < size; i++) {
+            _names[i] = s_shapes[i].getName();
+        }
+
+        return _names;
+    }
 }
