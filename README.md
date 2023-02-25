@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 146: Solidity
+#### <ins>**Polymorphism**</ins>
+1. Circle and Square contracts are inheritied from Shape class and they override a method getName
+2. Shapes contract has an array of type Shape contract and may hove both Circle and Square type contracts
+3. While calling the getName method the relevent implementation of the contract is called
+4. contracts/Inheritence.sol has Shapes contract that has array of Shape type contract
+5. deploy/37_shapes.js deploy the Shapes contract
+6. test/dev/shapes.test.js test basic unit tests
 
 ### Day 145: Solidity
 #### <ins>**Inheritence**</ins>
