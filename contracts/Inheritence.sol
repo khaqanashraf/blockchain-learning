@@ -66,3 +66,43 @@ contract Cop is Officer {
         name = this.getName();
     }
 }
+
+contract Shape {
+    constructor() {}
+
+    function getName() public pure virtual returns (string memory) {
+        return "Shape";
+    }
+}
+
+contract Circle is Shape {
+    constructor() {}
+
+    function getName() public pure override returns (string memory) {
+        return "Circle";
+    }
+}
+
+contract Square is Shape {
+    constructor() {}
+
+    function getName() public pure override returns (string memory) {
+        return "Square";
+    }
+}
+
+contract Shapes {
+    Shape[] s_shapes;
+
+    constructor() {}
+
+    function addCircle() public {
+        s_shapes.push(new Circle());
+    }
+
+    function addSquare() public {
+        s_shapes.push(new Square());
+    }
+
+    function getShapeNames() public returns (string[] memory) {}
+}
