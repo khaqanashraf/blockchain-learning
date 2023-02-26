@@ -1,4 +1,14 @@
 # Proof of passion for Blockchain technologies
+### Day 147: Solidity
+#### <ins>**Visibility**</ins>
+1. public functions can be called by the contract itself and any other contract
+2. private functions can only be called inside the contract
+3. internal functions can be called inside the child contracts
+4. external functions can only be called outside the contract
+5. contracts/Visibility.sol has a base contract and child contract and each visibility function
+6. deploy/38_visibility.js deploy both base and child class separately
+7. test/dev/visibility.test.js run basic unit tests
+
 ### Day 146: Solidity
 #### <ins>**Polymorphism**</ins>
 1. Circle and Square contracts are inheritied from Shape class and they override a method getName
