@@ -2,7 +2,6 @@ const { assert } = require('chai')
 const { network } = require('hardhat')
 const hre = require('hardhat')
 
-const CONTRACT_NAME = 'Constants'
 
 if (network.name === 'localhost')
     describe(`Testing Visiblity smart contracts`, async () => {
