@@ -1,4 +1,8 @@
 # Proof of passion for Blockchain technologies
+### Day 148: Solidity
+#### <ins>**Interface**</ins>
+1. An interface for counter is created and a contract address should be used to intract with contract using interface
+
 ### Day 147: Solidity
 #### <ins>**Visibility**</ins>
 1. public functions can be called by the contract itself and any other contract
