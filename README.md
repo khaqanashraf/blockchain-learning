@@ -1,4 +1,11 @@
 # Proof of passion for Blockchain technologies
+### Day 149: Solidity
+#### <ins>**Interface- Counter contract**</ins>
+1. contracts/Interface.sol has two contracts and an interface for Counter contract
+2. deploy/39_interface.js deploy contracts for interface
+3. test/dev/interface.test.js test basic unit tests
+4. run **yarn test:local**
+5. run **yarn deploy:local**
 ### Day 148: Solidity
 #### <ins>**Interface**</ins>
 1. An interface for counter is created and a contract address should be used to intract with contract using interface
