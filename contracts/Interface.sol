@@ -8,6 +8,10 @@ contract MyCounter {
         s_count = 0;
     }
 
+    function getCount() public view returns (uint) {
+        return s_count;
+    }
+
     function increment() public {
         s_count++;
     }
