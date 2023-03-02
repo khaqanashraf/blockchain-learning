@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+### Day 150: Solidity
+#### <ins>**Interface- Uniswap**</ins>
+1. contracts/UniswapInterface.sol has the UniswapExample contract 
+2. it uses two interfaces to get reservers
+
 ### Day 149: Solidity
 #### <ins>**Interface- Counter contract**</ins>
 1. contracts/Interface.sol has two contracts and an interface for Counter contract
