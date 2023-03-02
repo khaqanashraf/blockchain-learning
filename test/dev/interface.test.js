@@ -27,7 +27,6 @@ if (network.name === 'localhost')
 
         it('Should get incremented counter', async () => {
             const count = Number(await contract.getCounter())
-            console.log(count);
             assert(count === 1, 'Could not get incremented counter')
         })
 
