@@ -1,4 +1,10 @@
 # Proof of passion for Blockchain technologies
+### Day 151: Solidity
+#### <ins>**Payable**</ins>
+1. contracts/Payable.sol has a Funds contract which contains payable functions to receive ethers from outside the contract
+2. deploy/40_payable.js deploys the Funds contract and save the deployed address in contracts.json
+3. run **yarn deploy:local** to deploy all contract on hardhat local
+
 ### Day 150: Solidity
 #### <ins>**Interface- Uniswap**</ins>
 1. contracts/UniswapInterface.sol has the UniswapExample contract 
