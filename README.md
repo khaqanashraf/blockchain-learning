@@ -1,4 +1,9 @@
 # Proof of passion for Blockchain technologies
+
+### Day 152: Solidity
+#### <ins>**Payable**</ins>
+1. test/dev/payable.test.js has the unit tests for Funds contract in contracts/Payable.sol file
+2. run **yarn test:local**
 ### Day 151: Solidity
 #### <ins>**Payable**</ins>
 1. contracts/Payable.sol has a Funds contract which contains payable functions to receive ethers from outside the contract
