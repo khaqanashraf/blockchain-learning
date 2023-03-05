@@ -1,5 +1,12 @@
 # Proof of passion for Blockchain technologies
 
+### Day 153: Solidity
+#### <ins>**Transfer, Send and Call**</ins>
+1. receive and send ethers via transfer, send and call functions
+2. transfer (2300 gas, throws error)
+3. send (2300 gas, returns bool)
+4. call (forward all gas or set gas, returns bool)
+5. contracts/SendingEthers.sol contains ReceiveEther and SendEther contracts
 ### Day 152: Solidity
 #### <ins>**Payable**</ins>
 1. test/dev/payable.test.js has the unit tests for Funds contract in contracts/Payable.sol file
