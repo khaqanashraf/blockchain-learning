@@ -21,6 +21,9 @@ contract ReceiveEther {
 
     receive() external payable {}
 
+    /**
+     * Fallback can optionaly have bytes input param
+     */
     fallback() external payable {}
 
     function getBalance() public view returns (uint) {
