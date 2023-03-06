@@ -1,5 +1,12 @@
 # Proof of passion for Blockchain technologies
 
+### Day 154: Solidity
+#### <ins>**Call**</ins>
+1. call is a low level function to send ethers to a contract and can also be used to call functions of a contract but it is not recommended to call functions of other contracts as it is a low level and ommit the function exists check.
+2. contracts/Call.sol has CallReceiver and CallResponse smart contracts to test call on regular and fallback functions
+3. deploy/41_call.js deploy CallReceiver and CallResponse smart contracts on Hardhat local environment
+4. run **yarn deploy:local**
+
 ### Day 153: Solidity
 #### <ins>**Transfer, Send and Call**</ins>
 1. receive and send ethers via transfer, send and call functions
