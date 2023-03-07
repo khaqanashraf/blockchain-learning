@@ -1,5 +1,10 @@
 # Proof of passion for Blockchain technologies
 
+### Day 155: Solidity
+#### <ins>**Call function which not exists in contract**</ins>
+1. when a function is called using 'call' in solidity and the function does not exists then the fallback function is called
+2. test/dev/call.test.js run these basic unit tests
+3. run **npx hardhat --network localhost test**
 ### Day 154: Solidity
 #### <ins>**Call**</ins>
 1. call is a low level function to send ethers to a contract and can also be used to call functions of a contract but it is not recommended to call functions of other contracts as it is a low level and ommit the function exists check.
