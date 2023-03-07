@@ -18,5 +18,19 @@ if (network.name === 'localhost')
             assert(callReceiverContract.address && callResponseContract.address, 'Contracts are not deployed successfuly!')
         })
 
+        it('Should call the relevent function using call', async () => {
+            const tx = await callResponseContract.callTest(callReceiverContract.address, { value: String(0.1 * 1e18) });
+            const response = await tx.wait()
+            const event = response.events.find(e => e.event === 'Response')
+            const args = event.args
+            assert(args[0], "Could not call existing function using lower level call");
+        })
+        it('Should call fallback function using call when function not exists', async () => {
+            const tx = await callResponseContract.callFallback(callReceiverContract.address, { value: String(0.1 * 1e18) });
+            const response = await tx.wait()
+            const event = response.events.find(e => e.event === 'Response')
+            const args = event.args
+            assert(args[0], "Could not call a function if not exists even fallback exists");
+        })
 
     })
