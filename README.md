@@ -1,5 +1,11 @@
 # Proof of passion for Blockchain technologies
 
+### Day 156: Solidity
+#### <ins>**Delegatecall**</ins>
+1. delegatecall is the lower level function like call but the called contract uses the calling contract's storage
+2. contracts/DelegateCall.sol has DelegateCalledContract and DelegeteCallerContract to validate the storage used when the function of another contract is called using delegatecall.
+3. deploy/42_delegatecall.js has deploy script to deploy both of these contract
+4. run **npx hardhat --network localhost deploy**
 ### Day 155: Solidity
 #### <ins>**Call function which not exists in contract**</ins>
 1. when a function is called using 'call' in solidity and the function does not exists then the fallback function is called
