@@ -1,5 +1,11 @@
 # Proof of passion for Blockchain technologies
 
+### Day 157: Solidity
+#### <ins>**Delegatecall storage update**</ins>
+1. to check if the storage variables are transfered to another contract one contract call the other contract and the called contract update mg.sender, msg.value and num argument to its own storage variables but it actually updated the caller contracts storage
+2. test/dev/delegatecall.test.js has this unit test
+3. run **npx hardhat --network localhost test** will run all test cases
+
 ### Day 156: Solidity
 #### <ins>**Delegatecall**</ins>
 1. delegatecall is the lower level function like call but the called contract uses the calling contract's storage
