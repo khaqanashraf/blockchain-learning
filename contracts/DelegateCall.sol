@@ -28,6 +28,8 @@ contract DelegateCalledContract {
 }
 
 contract DelegateCallerContract {
+    event Log(bytes _data, bool _success);
+
     address s_sender;
     uint s_value;
     uint s_num;
@@ -35,10 +37,11 @@ contract DelegateCallerContract {
     constructor() {}
 
     function setValues(address payable _contract, uint _num) public payable {
-        (bool success, ) = _contract.delegatecall(
-            abi.encodeWithSignature("setValues(uint)", _num)
+        (bool success, bytes memory _data) = _contract.delegatecall(
+            abi.encodeWithSignature("setValues(uint256)", _num)
         );
 
+        emit Log(_data, success);
         require(success, "Delegate call failed");
     }
 
