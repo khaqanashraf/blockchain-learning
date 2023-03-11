@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+### Day 158: Solidity
+#### <ins>**Function Selector**</ins>
+1. to call a contracts function call uses the functions encoded signature whos first four bytes are the address of function and it is called the function selector
+2. a tiny amount of gas can be saved by saving the function selectors
+3. contracts/FunctionSelector.sol has FunctionSelector smart contract and also a function to get the selector of a function
+4. deploy/43_function_selector.js deploy the FunctionSelector smart contract
+5. test/dev/function_selector.test.js get the encoded signature and verify them
+
 
 ### Day 157: Solidity
 #### <ins>**Delegatecall storage update**</ins>
