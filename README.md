@@ -1,4 +1,13 @@
 # Proof of passion for Blockchain technologies
+ ### Day 159: Solidity
+#### <ins>**Calling contract**</ins>
+1. A contract can call another contract in two ways, the one way is to create the instance of the contract and call its method by dot operator or lower level call function can be used
+2. contracts/CallingContract.sol has a Callee contract and a Caller contract and Caller contract directly call Callee function from inside the Caller contract
+3. deploy/44_calling_contract.js deploy the Callee and Caller contracts
+4. test/dev/calling_contract.test.js test this case by calling a method of caller contract and the caller contract then itself execute Callee contract method and then it is checked if the num is incremented or not
+5. run **npx hardhat --network localhost test**
+6. run **npx hardhat --network localhost deploy**
+
 ### Day 158: Solidity
 #### <ins>**Function Selector**</ins>
 1. to call a contracts function call uses the functions encoded signature whos first four bytes are the address of function and it is called the function selector
