@@ -1,4 +1,10 @@
 # Proof of passion for Blockchain technologies
+ ### Day 160: Solidity
+#### <ins>**Create new Contracts**</ins>
+1. Contracts can create other contracts by using new keyword
+2. contracts/NewContract.sol has a Car contract and a CarFactory contract that creates Car contracts within the factory
+3. deploy/45_new_contracts.js scripts deploy CarFactory contract
+4. run **npx hardhat --network localhost deploy**
  ### Day 159: Solidity
 #### <ins>**Calling contract**</ins>
 1. A contract can call another contract in two ways, the one way is to create the instance of the contract and call its method by dot operator or lower level call function can be used
