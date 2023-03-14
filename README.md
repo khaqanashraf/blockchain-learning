@@ -1,4 +1,10 @@
 # Proof of passion for Blockchain technologies
+ ### Day 161: Solidity
+#### <ins>**Try/Catch**</ins>
+1. Trycatch in solidity while calling external calls or creating new contracts(calling the external constructor function)
+2. contracts/TryCatch.sol has a Person contract and TryCatchContract which create new Person contract and log if it is success or failed in try/catch block
+3. deploy/46_trycatch.js deploy TryCatchContract
+4. run **npx hardhat --network localhost deploy**
  ### Day 160: Solidity
 #### <ins>**Create new Contracts**</ins>
 1. Contracts can create other contracts by using new keyword
