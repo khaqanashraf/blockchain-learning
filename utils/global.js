@@ -18,6 +18,9 @@ const updateContractDeployedAddress = async (contractName, networkIdentifier, co
     if (contract && contract[networkIdentifier]) {
         contractsData[contractName][networkIdentifier] = deployDetails
     }
+    else if (contract && !contract[networkIdentifier]) {
+        contractsData[contractName][networkIdentifier] = deployDetails
+    }
     else {
         const obj = {}
         obj[networkIdentifier] = deployDetails
