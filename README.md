@@ -1,4 +1,12 @@
 # Proof of passion for Blockchain technologies
+
+ ### Day 162: Solidity
+#### <ins>**Import**</ins>
+1. others contract can be included in a solidity file by using import statement
+2. contracts/Import.sol has ImportedCarFactroy contract and it imports Car contract from contracts/NewContract.sol file
+3. deploy/47_deploy.js deploy ImportedCarFactory contract
+4. run **npx hardhat --network localhost deploy**
+
  ### Day 161: Solidity
 #### <ins>**Try/Catch**</ins>
 1. Trycatch in solidity while calling external calls or creating new contracts(calling the external constructor function)
