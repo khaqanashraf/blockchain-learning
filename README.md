@@ -1,5 +1,16 @@
 # Proof of passion for Blockchain technologies
 
+ ### Day 163: Solidity
+#### <ins>**Library**</ins>
+1. Library in solidity can be used to extend functionality of premitive data types and use some regulatory functions
+2. "using" and "for" keywords can be used to extend the functionality of a data type by using a library
+3. If the library methods are marked as public/external then before deploying the contract the library has to be linked with the contract else use internal visibility
+4. contracts/Library.sol has MathLibrary and LibraryContract which extends the functionality of uint
+5. deploy/48_library.js script deploy the LibraryContract
+6. test/dev/library.test.js script test the library function
+7. run **npx hardhat --network localhost deploy**
+8. run **npx hardhat --network localhost test**
+
  ### Day 162: Solidity
 #### <ins>**Import**</ins>
 1. others contract can be included in a solidity file by using import statement
