@@ -1,5 +1,15 @@
 # Proof of passion for Blockchain technologies
 
+ ### Day 164: Solidity
+#### <ins>**Abiencode**</ins>
+1. To call a function with function signature the function must be abi encoded
+2. there are mainly 3 methods for encoding a function signature 1. encodeWithSignature 2. encodeWithSelector 3. encodeCall
+3. contracts/AbiEncode.sol has AbiEncode contract which encode function for Token contract using IERC20 interface
+4. deploy/49_abi_encode.js deploys the AbiEncode and Token contracts
+5. test/dev/abi_encode.test.js tests all of three methods for abi encoding
+6. run **npx hardhat --network localhost deploy**
+7. run **npx hardhat --network localhost test**
+
  ### Day 163: Solidity
 #### <ins>**Library**</ins>
 1. Library in solidity can be used to extend functionality of premitive data types and use some regulatory functions
