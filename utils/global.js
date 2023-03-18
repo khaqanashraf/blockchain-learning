@@ -6,7 +6,8 @@ const readContractsData = () => {
 }
 
 const writeContractsData = async (data) => {
-    const rootPath = process.env.PWD
+    const hhconfig = require('../hardhat.config')
+    const rootPath = hhconfig.PROJECT_DIRECTORY
     fs.writeFileSync(rootPath + '/contracts.json', JSON.stringify(data))
 }
 
