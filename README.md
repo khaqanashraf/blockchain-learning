@@ -1,5 +1,13 @@
 # Proof of passion for Blockchain technologies
 
+### Day 165: Solidity
+#### <ins>**Abidecode**</ins>
+1. contracts/AbiDecode.sol has a contract AbiDecode with two methods encode and decode respectively
+2. deploy/50_abi_decode.js script deploys the AbiDecode contract
+3. test/dev/abi_decode.test.js check if encode and decode is working fine
+4. run **npx hardhat --network localhost deploy**
+5. run **npx hardhat --network localhost test**
+
  ### Day 164: Solidity
 #### <ins>**Abiencode**</ins>
 1. To call a function with function signature the function must be abi encoded
