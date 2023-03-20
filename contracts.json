@@ -601,6 +601,10 @@
         "localhost": {
             "address": "0x1D8D70AD07C8E7E442AD78E4AC0A16f958Eba7F0",
             "args": []
+        },
+        "hardhat": {
+            "address": "0x7bc06c482DEAd17c0e297aFbC32f6e63d3846650",
+            "args": []
         }
     }
 }
