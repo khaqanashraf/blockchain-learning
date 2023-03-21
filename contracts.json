@@ -591,6 +591,10 @@
         "localhost": {
             "address": "0x88D1aF96098a928eE278f162c1a84f339652f95b",
             "args": []
+        },
+        "hardhat": {
+            "address": "0x7969c5eD335650692Bc04293B07F5BF2e7A673C0",
+            "args": []
         }
     }
 }
