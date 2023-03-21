@@ -1,5 +1,11 @@
 # Proof of passion for Blockchain technologies
 
+### Day 168: Solidity
+#### <ins>**Bitwise operators**</ins>
+1. contracts/Bitwise.sol has BitwiseOps contract containing bitwise functions
+2. deploy/53_bitwise.js deploys BitwiseOps smart contract
+3. run **npx hardhat --network localhost deploy**
+
 ### Day 167: Solidity
 #### <ins>**Verify signature**</ins>
 1. verify eth signed message signature
