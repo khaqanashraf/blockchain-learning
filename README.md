@@ -1,5 +1,24 @@
 # Proof of passion for Blockchain technologies
 
+### Day 167: Solidity
+#### <ins>**Verify signature**</ins>
+1. verify eth signed message signature
+2. contracts/Signature.sol has VerifySignature contract which create hash and recover signer from eth signed hash message
+3. deploy/52_signature.js deploys the VerifySignature contract
+4. test/dev/signature.test.js create and verify signatures
+5. run **npx hardhat --network localhost deploy**
+6. run **npx hardhat --network localhost test**
+
+### Day 166: Solidity
+#### <ins>**keccak256 hash**</ins>
+1. keccak256 is a hashing algorithm which will create a deterministic hash of 256-bits or 32 bytes long string
+2. abi.encodePacked concats multiple strings togather
+3. contracts/Keccak256.sol has a smart contract which create a unique hash by combining the caller address and a message
+4. deploy/51_keccak256.js deploys the Keccak256 smart contract
+5. test/dev/keccak256.test.js check if the hash is generated
+6. run **npx hardhat --network localhost deploy**
+7. run **npx hardhat --network localhost test**
+
 ### Day 165: Solidity
 #### <ins>**Abidecode**</ins>
 1. contracts/AbiDecode.sol has a contract AbiDecode with two methods encode and decode respectively
