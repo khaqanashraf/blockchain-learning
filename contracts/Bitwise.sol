@@ -16,7 +16,7 @@ contract BitwiseOps {
         return x ^ y;
     }
 
-    function not(uint x) public pure returns (uint) {
+    function not(uint8 x) public pure returns (uint8) {
         return ~x;
     }
 
@@ -29,6 +29,11 @@ contract BitwiseOps {
     }
 
     function getMask(uint bits) public pure returns (uint) {
+        /**
+         * to get mask of 3 bits that is 111
+         * we need 1000 by shifting 3 bits left of 0001
+         * then by subtracting 1000(8) - 0001(1) we'll get 111(7)
+         */
         return (1 << bits) - 1;
     }
 }
