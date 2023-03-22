@@ -1,5 +1,10 @@
 # Proof of passion for Blockchain technologies
 
+### Day 169: Solidity
+#### <ins>**Bitwise operators tests**</ins>
+1. test/dev/bitwise.test.js check and verify bitwise oprations of solidity by using BitwiseOps smart contract
+2. run **npx hardhat --netwok localhost test**
+
 ### Day 168: Solidity
 #### <ins>**Bitwise operators**</ins>
 1. contracts/Bitwise.sol has BitwiseOps contract containing bitwise functions
