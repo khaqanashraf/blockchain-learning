@@ -16,14 +16,14 @@ if (network.name === 'localhost')
             assert(contract.address, 'Contract is not deployed successfuly!')
         })
 
-        it('Should add two big size integers', async ()=>{
+        it('Should add two big size integers', async () => {
             const num1 = String(1e18)
             const num2 = String(1e18)
             const result = await contract.add(num1, num2)
-            assert(result==String(2e18), 'Could not add two big size integers')
+            assert(result == String(2e18), 'Could not add two big size integers')
         })
 
-        it('Should subtract two big size integers', async ()=>{
+        it('Should subtract two big size integers', async () => {
             const num1 = String(1e18)
             const num2 = String(2e18)
             await contract.sub(num1, num2)
