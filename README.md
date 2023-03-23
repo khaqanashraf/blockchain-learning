@@ -1,5 +1,13 @@
 # Proof of passion for Blockchain technologies
 
+### Day 170: Solidity
+#### <ins>**Unchecked Maths**</ins>
+1. contracts/UncheckedMath.sol has a contract which do some math operations in unchecked block
+2. deploy/54_unchecked_math.js deploys UncheckedMath
+3. test/dev/unchecked_math.test.js runs basic unit tests
+4. run **npx hardhat --network localhost deploy**
+5. run **npx hardhat --network localhost test**
+
 ### Day 169: Solidity
 #### <ins>**Bitwise operators tests**</ins>
 1. test/dev/bitwise.test.js check and verify bitwise oprations of solidity by using BitwiseOps smart contract
