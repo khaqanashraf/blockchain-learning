@@ -7,7 +7,7 @@ if (network.name === 'localhost')
     describe(`Testing AbiEncode smart contract`, async () => {
         let contract
         before(async () => {
-            const Contract = await hre.ethers.getContractFactory('contracts/AbiDecode.sol:AbiDecode')
+            const Contract = await hre.ethers.getContractFactory('AbiDecode')
             contract = await Contract.deploy()
         })
 
