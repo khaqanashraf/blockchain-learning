@@ -59,4 +59,11 @@ if (network.name === 'localhost')
             assert(recovered == signer.address, 'Could not recover signer by custom computation')
         })
 
+        it('Should recover custom length message using ecrecover', async ()=>{
+            const { r, s, v } = await contract.splitSignature(signedMessage)
+            const messageLength = String(Buffer.from(message).length)
+            const recovered = await contract.verifyCustomLengthMessage(message, messageLength, v, r, s)
+            assert(recovered==signer.address, 'Could not recover signer from custom length message')
+        })
+
     })

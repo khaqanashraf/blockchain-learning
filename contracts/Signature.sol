@@ -4,19 +4,15 @@ pragma solidity ^0.8.17;
 contract VerifySignature {
     constructor() {}
 
-    function getMessageHash(string memory _message)
-        public
-        pure
-        returns (bytes32)
-    {
+    function getMessageHash(
+        string memory _message
+    ) public pure returns (bytes32) {
         return keccak256(abi.encodePacked(_message));
     }
 
-    function getEthSignedMessageHash(bytes32 _messageHash)
-        public
-        pure
-        returns (bytes32)
-    {
+    function getEthSignedMessageHash(
+        bytes32 _messageHash
+    ) public pure returns (bytes32) {
         /*
         Signature is produced by signing a keccak256 hash with the following format:
         "\x19Ethereum Signed Message\n" + len(msg) + msg
@@ -39,15 +35,9 @@ contract VerifySignature {
         return ecrecover(_ethSignedMessageHash, v, r, s);
     }
 
-    function splitSignature(bytes memory sig)
-        public
-        pure
-        returns (
-            bytes32 r,
-            bytes32 s,
-            uint8 v
-        )
-    {
+    function splitSignature(
+        bytes memory sig
+    ) public pure returns (bytes32 r, bytes32 s, uint8 v) {
         require(sig.length == 65, "invalid signature length");
 
         assembly {
@@ -82,6 +72,20 @@ contract VerifySignature {
         );
 
         return ecrecover(messageDigest, v, r, s);
+    }
+
+    function verifyCustomLengthMessage(
+        string calldata _message,
+        string calldata _messageLength,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) public pure returns (address signer) {
+        string memory header = string(
+            abi.encodePacked("\x19Ethereum Signed Message:\n", _messageLength)
+        );
+        bytes32 digest = keccak256(abi.encodePacked(header, _message));
+        return ecrecover(digest, v, r, s);
     }
 
     function verifyString(
