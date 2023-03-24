@@ -1,5 +1,11 @@
 # Proof of passion for Blockchain technologies
 
+### Day 171: Solidity
+#### <ins>**Verify ethereum custom signed message**</ins>
+1. verify ethereum signed message with custom length message in contracts/Signature.sol
+2. run **npx hardhat --network localhost deploy**
+3. run **npx hardhat --network localhost test** 
+
 ### Day 170: Solidity
 #### <ins>**Unchecked Maths**</ins>
 1. contracts/UncheckedMath.sol has a contract which do some math operations in unchecked block
