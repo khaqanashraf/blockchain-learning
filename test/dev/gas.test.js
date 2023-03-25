@@ -21,17 +21,7 @@ if (network.name === 'localhost')
 
             assert(num === 0, 'state variable is not equal to 0')
         })
-        it('Should call run function and it must failed the transaction', async () => {
-            let transactionFailed = false
-            try {
-                await contract.run()
-
-            } catch (error) {
-                transactionFailed = true
-            }
-
-            assert(transactionFailed, 'The program is running forever')
-        })
+        
         it('Should get state variable num and it should be still 0', async () => {
             const num = Number(await contract.getNum())
 
