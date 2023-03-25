@@ -1,5 +1,16 @@
 # Proof of passion for Blockchain technologies
 
+### Day 172: Solidity
+#### <ins>**Ether Wallet - Charity Contract**</ins>
+1. contracts/EtherWallet.sol has a Charity contract that receives ethers
+2. deploy/55_ether_wallet.js deploys Charity contract
+3. test/dev/ether_wallet.test.js run unit tests for Charity contract on hardhat local
+4. run **npx hardhat --network localhost deploy**
+5. run **npx hardhat --network localhost test** 
+
+Charity contract deployed on BSC testnet on following address,
+https://testnet.bscscan.com/address/0x90E07112E7FA85EDc445945D41A2fe26009A0F0F
+
 ### Day 171: Solidity
 #### <ins>**Verify ethereum custom signed message**</ins>
 1. verify ethereum signed message with custom length message in contracts/Signature.sol
