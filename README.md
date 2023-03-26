@@ -1,5 +1,11 @@
 # Proof of passion for Blockchain technologies
 
+### Day 173: Solidity
+#### <ins>**Multi Sign Wallet**</ins>
+1. contracts/MultiSigWallet.sol has MultiSigWallet smart contract
+2. test/dev/multi_sig_wallet.test.js runs the unit tests on the smart contract
+3. run **npx hardhat --network localhost test**
+
 ### Day 172: Solidity
 #### <ins>**Ether Wallet - Charity Contract**</ins>
 1. contracts/EtherWallet.sol has a Charity contract that receives ethers
