@@ -8,6 +8,9 @@
 3. test/dev/mytoken.test.js has unit tests for ERC20 token
 4. run **npx hardhat --network localhost deploy**
 5. run **npx hardhat --network localhost test** 
+
+Here is the deployed contract for Ravi token on BSC testnet
+https://testnet.bscscan.com/address/0x42154E1cF08A2C5a626c44df023592153A5604C9
  
 ### Day 173: Solidity
 #### <ins>**Multi Sign Wallet**</ins>
