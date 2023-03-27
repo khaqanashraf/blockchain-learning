@@ -1,5 +1,14 @@
 # Proof of passion for Blockchain technologies
 
+
+### Day 174: Solidity
+#### <ins>**ERC20 token**</ins>
+1. contracts/MyToken.sol has ERC20 token named as Ravi
+2. deploy/56_mytoken.js deploys Ravi token with an owner account
+3. test/dev/mytoken.test.js has unit tests for ERC20 token
+4. run **npx hardhat --network localhost deploy**
+5. run **npx hardhat --network localhost test** 
+ 
 ### Day 173: Solidity
 #### <ins>**Multi Sign Wallet**</ins>
 1. contracts/MultiSigWallet.sol has MultiSigWallet smart contract
