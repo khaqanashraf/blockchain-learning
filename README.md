@@ -1,5 +1,13 @@
 # Proof of passion for Blockchain technologies
 
+### Day 176: Solidity
+#### <ins>**ERC721 Basic NFT**</ins>
+1. contracts/NFT.sol has a smart contract BasicNFT having three types of fungible tokens
+2. deploy/56-basic-nft.js deploys BasicNFT contract
+3. test/dev/basicNFT.test.js runs basic tests on BasicNFT smart contract
+4. run **npx hardhat --network localhost deploy**
+5. run **npx hardhat --network localhost test** 
+
 ### Day 175: Solidity
 #### <ins>**ERC20 token swap**</ins>
 1. contract/TokenSwap.sol has a TokenSwap contract that can transfer tokens from one account to another and viceversa by calling a swap function of the contract. 
