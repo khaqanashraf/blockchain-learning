@@ -1,5 +1,16 @@
 # Proof of passion for Blockchain technologies
 
+### Day 177: Solidity
+#### <ins>**Pirates collection**</ins>
+1. nft/contracts/BasicNFT.sol has BasicNFT contract of ERC721 type for Pirates collection
+2. nft/deploy/01-basic-nft.js deploys BasicNFT contract
+3. test/dev/basicNFT.test.js runs unit tests of BasicNFT smart contract
+4. run **npx hardhat --network localhost deploy**
+5. run **npx hardhat --network localhost test** 
+
+deployed contract and opensea collection urls on test net are follow, 
+https://testnet.bscscan.com/token/0x6d32a751E49e1AEe23c810E04939A8f1040D44aE
+https://testnets.opensea.io/collection/pirates-6
 ### Day 176: Solidity
 #### <ins>**ERC721 Basic NFT**</ins>
 1. contracts/NFT.sol has a smart contract BasicNFT having three types of fungible tokens
