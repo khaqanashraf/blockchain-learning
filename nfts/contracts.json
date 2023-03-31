@@ -1,1 +1,34 @@
-{"BasicNFT":{"hardhat":{"address":"0x5FbDB2315678afecb367f032d93F642f64180aa3","args":[]},"localhost":{"address":"0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512","args":[]},"bscTestnet":{"address":"0x6d32a751E49e1AEe23c810E04939A8f1040D44aE","args":[]}}}
+{
+    "BasicNFT": {
+        "hardhat": {
+            "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+            "args": []
+        },
+        "localhost": {
+            "address": "0x5bF8D07D696c2bde7478aaeE57F3e6475203EeD9",
+            "args": []
+        },
+        "bscTestnet": {
+            "address": "0x6d32a751E49e1AEe23c810E04939A8f1040D44aE",
+            "args": []
+        }
+    },
+    "RandomPriates": {
+        "localhost": {
+            "address": "0x1F8B0Ab82C79bDBB02AbB87F6681a464CF24D50A",
+            "args": [
+                10,
+                20,
+                70
+            ]
+        },
+        "bscTestnet": {
+            "address": "0x9947fb8A65B6A084c085CA8fe6563dF2745b5e36",
+            "args": [
+                10,
+                30,
+                60
+            ]
+        }
+    }
+}
