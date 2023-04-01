@@ -9,7 +9,7 @@ if (network.name === 'localhost')
         let contract
         before(async () => {
             const Contract = await hre.ethers.getContractFactory(CONTRACT_NAME)
-            contract = await Contract.deploy(10, 20, 70)
+            contract = await Contract.deploy(83, 47, 10, 20, 70)
         })
 
         it(`Should deploy ${CONTRACT_NAME} smart contract to local environment`, async () => {

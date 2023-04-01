@@ -15,16 +15,30 @@
     },
     "RandomPriates": {
         "localhost": {
-            "address": "0x1F8B0Ab82C79bDBB02AbB87F6681a464CF24D50A",
+            "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
             "args": [
+                83,
+                47,
                 10,
-                20,
-                70
+                30,
+                60
             ]
         },
         "bscTestnet": {
-            "address": "0x9947fb8A65B6A084c085CA8fe6563dF2745b5e36",
+            "address": "0xad488b36B70A668B6b7EdD9f64bd2507e359BF50",
             "args": [
+                83,
+                47,
+                10,
+                30,
+                60
+            ]
+        },
+        "hardhat": {
+            "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+            "args": [
+                83,
+                47,
                 10,
                 30,
                 60

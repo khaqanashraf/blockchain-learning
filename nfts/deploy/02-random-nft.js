@@ -4,7 +4,7 @@ const { updateContractDeployedAddress } = require('../utils/global')
 
 const CONTRACT_NAME = 'RandomPriates'
 module.exports = async () => {
-    const args = [10, 30, 60]
+    const args = [83, 47, 10, 30, 60]
     const Contract = await hre.ethers.getContractFactory(CONTRACT_NAME)
     const contract = await Contract.deploy(...args)
 
