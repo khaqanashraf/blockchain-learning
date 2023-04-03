@@ -5,7 +5,7 @@
             "args": []
         },
         "localhost": {
-            "address": "0x5bF8D07D696c2bde7478aaeE57F3e6475203EeD9",
+            "address": "0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE",
             "args": []
         },
         "bscTestnet": {
@@ -15,34 +15,45 @@
     },
     "RandomPriates": {
         "localhost": {
-            "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+            "address": "0x70e0bA845a1A0F2DA3359C97E0285013525FFC49",
             "args": [
-                83,
-                47,
+                "0x998abeb3E57409262aE5b751f60747921B33613E",
                 10,
                 30,
                 60
             ]
         },
         "bscTestnet": {
-            "address": "0xad488b36B70A668B6b7EdD9f64bd2507e359BF50",
+            "address": "0xC0a2C6A18012010BE8A7146001502A4f141367c3",
             "args": [
-                83,
-                47,
+                "0xe28BceDc5edd3324f118F7669465c1e2AC5CCF8D",
                 10,
                 30,
                 60
             ]
         },
         "hardhat": {
-            "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+            "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
             "args": [
-                83,
-                47,
+                "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
                 10,
                 30,
                 60
             ]
+        }
+    },
+    "RandomNumber": {
+        "bscTestnet": {
+            "address": "0xe28BceDc5edd3324f118F7669465c1e2AC5CCF8D",
+            "args": []
+        },
+        "localhost": {
+            "address": "0x998abeb3E57409262aE5b751f60747921B33613E",
+            "args": []
+        },
+        "hardhat": {
+            "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+            "args": []
         }
     }
 }

@@ -2,9 +2,9 @@ const { network } = require('hardhat')
 const hre = require('hardhat')
 const { updateContractDeployedAddress } = require('../utils/global')
 
-const CONTRACT_NAME = 'RandomPriates'
+const CONTRACT_NAME = 'RandomNumber'
 module.exports = async () => {
-    const args = [83, 47, 10, 30, 60]
+    const args = []
     const Contract = await hre.ethers.getContractFactory(CONTRACT_NAME)
     const contract = await Contract.deploy(...args)
 

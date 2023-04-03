@@ -19,8 +19,8 @@ if (network.name === 'localhost')
         })
 
         it('Should get psudo random number', async () => {
-            const randomNumber = await contract.psudoRandomNumber(0)
-            assert(true, 'Could not get random number')
+            const randomNumber = await contract.psudoRandomNumber(1)
+            assert(randomNumber, 'Could not get random number')
         })
 
 

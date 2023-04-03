@@ -3,13 +3,10 @@ pragma solidity ^0.8.17;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
+import "./RandomNumber.sol";
 
 contract RandomPriates is ERC721 {
     string constant BASE_URI = "https://igqc37.deta.dev/pirates/";
-
-    uint immutable i_multiplier;
-    uint immutable i_biase;
-    uint constant MODE = 100;
 
     uint immutable i_whitebeardProb;
     uint immutable i_redhairedProb;
@@ -23,20 +20,15 @@ contract RandomPriates is ERC721 {
     uint s_redhairedCount;
     uint s_blackbeardCount;
 
+    address immutable i_randomNumberContractAddress;
+
     constructor(
-        uint a,
-        uint b,
+        address _randomNumContract,
         uint _whitebeardProb,
         uint _redhairedProb,
         uint _blackbeardProb
     ) ERC721("Pirates", "PRT") {
-        i_multiplier = a;
-        i_biase = b;
-
-        require(
-            a > 0 && a < MODE && b >= 0 && b < MODE,
-            "Psudo random params are invalid with m=100"
-        );
+        i_randomNumberContractAddress = _randomNumContract;
 
         i_whitebeardProb = _whitebeardProb;
         i_redhairedProb = _redhairedProb;
@@ -46,27 +38,9 @@ contract RandomPriates is ERC721 {
         i_redhairedRange = i_whitebeardRange + _redhairedProb;
         i_blackbeardRange = i_redhairedRange + _blackbeardProb;
         require(
-            i_blackbeardRange < MODE,
+            i_blackbeardRange < 100,
             "Givern probabilities are not correct"
         );
-    }
-
-    function getPsudoRandomParams()
-        public
-        view
-        returns (
-            uint a,
-            uint b,
-            uint m
-        )
-    {
-        a = i_multiplier;
-        b = i_biase;
-        m = MODE;
-    }
-
-    function calculateRandomNumber(uint _seed) public view returns (uint) {
-        return (i_multiplier * _seed + i_biase) % MODE;
     }
 
     function getProbabilities()
@@ -114,12 +88,11 @@ contract RandomPriates is ERC721 {
     function getRandomNumber() internal view returns (uint) {
         uint totalCount = s_whitebeardCount +
             s_redhairedCount +
-            s_blackbeardCount +
-            1;
-        uint blockNumber = block.number;
-        uint timestamp = block.timestamp;
-        uint seed = timestamp * blockNumber * totalCount;
-        return calculateRandomNumber(seed);
+            s_blackbeardCount;
+        uint seed = totalCount;
+        uint randomNumber = IRandomNumber(i_randomNumberContractAddress)
+            .psudoRandomNumber(seed);
+        return randomNumber % 100;
     }
 
     function mint() public {
