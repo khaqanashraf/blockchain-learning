@@ -6,13 +6,13 @@
 2. nfts/contract/RandomNFT.sol has RandomPirates contract that uses RandomNumber smart contract to calculate random number and give total number of minted items at that time as the seed.
 3. nfts/deploy/02-random-number.js deploys the RandomNumber smart contract
 4. nfts/deploy/03-random-nft.js deploys the RandomPirates smart contract
-5. run **npx hardhat --network localhost test --grep RandomNumber,RandomPirates**
-6. run **npx hardhat --network bscTestnet deploy --tags RandomNumber,RandomPirates**
-7. run **npx hardhat --network bscTestnet run scripts/verify.js**
+5. run **npx hardhat --network localhost test --grep RandomNumber,RandomPirates**  
+6. run **npx hardhat --network bscTestnet deploy --tags RandomNumber,RandomPirates**  
+7. run **npx hardhat --network bscTestnet run scripts/verify.js**  
 
-RandomNumber contract is deployed on: https://testnet.bscscan.com/address/0xe28BceDc5edd3324f118F7669465c1e2AC5CCF8D
-RandomPirates contract is deployed on: https://testnet.bscscan.com/address/0xC0a2C6A18012010BE8A7146001502A4f141367c3
-Opensea collection for RandomPirates: https://testnets.opensea.io/collection/pirates-10
+RandomNumber contract is deployed on: https://testnet.bscscan.com/address/0xe28BceDc5edd3324f118F7669465c1e2AC5CCF8D  
+RandomPirates contract is deployed on: https://testnet.bscscan.com/address/0xC0a2C6A18012010BE8A7146001502A4f141367c3  
+Opensea collection for RandomPirates: https://testnets.opensea.io/collection/pirates-10  
 
 ### Day 177: Solidity
 #### <ins>**Pirates collection**</ins>
