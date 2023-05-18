@@ -1,5 +1,14 @@
 # Proof of passion for Blockchain technologies
 
+### Day 179: Solidity
+#### <ins>**Multi token**</ins>
+1. 1155 token standard allow to have multiple token types in same contract
+2. it can have multiple type of token even the mix of fungible and non-fungible tokens
+3. nfts/contracts/MultiToken.sol has a smart contract containing the components which are different in nature but the same contract will handle them
+4. nfts/deploy/04-multi-token.js deploys multi token smart contract
+5. nfts/test/dev/multiToken.test.js has unit tests for this contract
+6. The contract is deployed and verified on BSC testnet as well with address: 0x51E8c41820bbcc2B9ED67Fb99f4CC18EBC8e860A
+
 ### Day 178: Solidity
 #### <ins>**Random NFT**</ins>
 1. nfts/contracts/RandomNumber.sol has RandomNumber contract and interface that calculate psudo rando number based on given params and multple of given seed with the product of block timestamp and block number.
